@@ -1,2 +1,6 @@
 # Software-testing-process-and-tools
-SPR26
+
+## Team Member
+|  Họ tên  |  MSSV  |  Email  |
+| Hoàng Anh  |  2201700173|  anh.2201700173@st.umt.edu.vn  |
+| Hoàng Quang Huy  |
