@@ -7,8 +7,14 @@
 | Hoàng Quang Huy  |  2201700089  |  huy.2201700089@st.umt.edu.vn  |
 
 ## Links
-Web test: [Link here]{ https://saleserpdemo.bdtask-demo.com/v10_demo/home }
+Web test: [Link here](https://saleserpdemo.bdtask-demo.com/v10_demo/home)
 
+<<<<<<< HEAD
 Drive: [Link here]{ https://drive.google.com/drive/u/0/folders/1kR8QxGQe9SUPm4ez8Eb4GgQ3FOQfPByl }
 
 update 
+=======
+Drive: [Link here](https://drive.google.com/drive/u/0/folders/1kR8QxGQe9SUPm4ez8Eb4GgQ3FOQfPByl)
+
+update
+>>>>>>> branch 'main' of https://github.com/UMT-UNI/Software-testing-process-and-tools.git
