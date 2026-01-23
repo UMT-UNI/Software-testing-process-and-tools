@@ -19,5 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://saleserpdemo.bdtask-demo.com/v10_demo/login')
+WebUI.navigateToUrl('https://saleserpdemo.bdtask-demo.com/v10_demo/')
+
+WebUI.setText(findTestObject('null'), 'admin@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('null'), 'aeHFOx8jV/A=')
+
+WebUI.click(findTestObject('null'))
 
