@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Product,Edge Chromium 144.0.3719.92,,,29-01-2026 17:51:15,29-01-2026 17:52:49,1m - 34.481s,PASSED
+,,,,,,,
+Test Cases/HA/Login,Edge Chromium 144.0.3719.92,,,29-01-2026 17:51:17,29-01-2026 17:52:01,44.080s,PASSED
+"openBrowser("""")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:51:18,29-01-2026 17:51:22,4.893s,PASSED
+"navigateToUrl(""https://saleserpdemo.bdtask-demo.com/v10_demo/"")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:51:22,29-01-2026 17:51:25,2.749s,PASSED
+"setText(findTestObject(""Object Repository/TC Login/Page_/input_Email_email""), ""admin@gmail.com"")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:51:25,29-01-2026 17:51:48,22.330s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC Login/Page_/input_Password_password""), ""aeHFOx8jV/A="")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:51:48,29-01-2026 17:51:58,10.862s,PASSED
+"click(findTestObject(""Object Repository/TC Login/Page_/button_Login""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:51:58,29-01-2026 17:52:01,2.453s,PASSED
+,,,,,,,
+Test Cases/HA/Add Category,Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:01,29-01-2026 17:52:14,12.868s,PASSED
+"openBrowser("""")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:01,29-01-2026 17:52:03,1.571s,PASSED
+"navigateToUrl(""https://saleserpdemo.bdtask-demo.com/v10_demo/"")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:03,29-01-2026 17:52:04,1.397s,PASSED
+"setText(findTestObject(""Object Repository/TC Product/Page_/input_Email_email_1""), ""admin@gmail.com"")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:04,29-01-2026 17:52:05,1.211s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC Product/Page_/input_Password_password_1""), ""aeHFOx8jV/A="")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:05,29-01-2026 17:52:06,0.676s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_/button_Login""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:06,29-01-2026 17:52:09,2.688s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_Dashboard/a_Product""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:09,29-01-2026 17:52:09,0.844s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_Dashboard/a_Add Category""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:09,29-01-2026 17:52:11,1.605s,PASSED
+"setText(findTestObject(""Object Repository/TC Product/Page_Add Category/input__category_name""), ""New Product"")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:11,29-01-2026 17:52:12,1.189s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_Add Category/button_Save""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:12,29-01-2026 17:52:13,0.495s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:13,29-01-2026 17:52:13,0.781s,PASSED
+closeBrowser(),Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:13,29-01-2026 17:52:14,0.280s,PASSED
+,,,,,,,
+Test Cases/HA/Update Category,Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:14,29-01-2026 17:52:27,13.280s,PASSED
+"openBrowser("""")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:14,29-01-2026 17:52:15,1.182s,PASSED
+"navigateToUrl(""https://saleserpdemo.bdtask-demo.com/v10_demo/"")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:15,29-01-2026 17:52:17,1.623s,PASSED
+"setText(findTestObject(""Object Repository/TC Product/Page_/input_Email_email""), ""admin@gmail.com"")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:17,29-01-2026 17:52:18,1.094s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC Product/Page_/input_Password_password""), ""aeHFOx8jV/A="")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:18,29-01-2026 17:52:18,0.611s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_/button_Login""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:18,29-01-2026 17:52:21,2.336s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_Dashboard/a_Product""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:21,29-01-2026 17:52:22,0.912s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_Dashboard/a_Category List""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:22,29-01-2026 17:52:23,1.840s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_Manage Category/a_Active_btn btn-info btn-sm""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:23,29-01-2026 17:52:25,1.587s,PASSED
+"setText(findTestObject(""Object Repository/TC Product/Page_/input__category_name""), ""Edit Category"")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:25,29-01-2026 17:52:26,1.148s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_/button_Update""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:26,29-01-2026 17:52:27,0.576s,PASSED
+closeBrowser(),Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:27,29-01-2026 17:52:27,0.298s,PASSED
+,,,,,,,
+Test Cases/HA/Delete Category,Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:27,29-01-2026 17:52:38,10.637s,PASSED
+"openBrowser("""")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:27,29-01-2026 17:52:28,1.148s,PASSED
+"navigateToUrl(""https://saleserpdemo.bdtask-demo.com/v10_demo/"")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:28,29-01-2026 17:52:30,1.436s,PASSED
+"setText(findTestObject(""Object Repository/TC Product/Page_/input_Email_email""), ""admin@gmail.com"")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:30,29-01-2026 17:52:31,1.062s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC Product/Page_/input_Password_password""), ""aeHFOx8jV/A="")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:31,29-01-2026 17:52:31,0.623s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_/button_Login""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:31,29-01-2026 17:52:34,2.324s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_Dashboard/a_Product""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:34,29-01-2026 17:52:35,0.930s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_Dashboard/a_Category List""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:35,29-01-2026 17:52:36,1.784s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_Manage Category/i_Active_fa fa-trash-o""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:36,29-01-2026 17:52:37,0.817s,PASSED
+closeBrowser(),Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:37,29-01-2026 17:52:38,0.419s,PASSED
+,,,,,,,
+Test Cases/HA/Add Unit,Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:38,29-01-2026 17:52:49,11.706s,PASSED
+"openBrowser("""")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:38,29-01-2026 17:52:39,1.428s,PASSED
+"navigateToUrl(""https://saleserpdemo.bdtask-demo.com/v10_demo/"")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:39,29-01-2026 17:52:41,1.508s,PASSED
+"setText(findTestObject(""Object Repository/TC Product/Page_/input_Email_email""), ""admin@gmail.com"")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:41,29-01-2026 17:52:42,1.068s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC Product/Page_/input_Password_password""), ""aeHFOx8jV/A="")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:42,29-01-2026 17:52:43,0.631s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_/button_Login""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:43,29-01-2026 17:52:45,2.164s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_Dashboard/a_Product""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:45,29-01-2026 17:52:46,0.934s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_Dashboard/a_Add Unit""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:46,29-01-2026 17:52:47,1.749s,PASSED
+"setText(findTestObject(""Object Repository/TC Product/Page_Add Unit/input__unit_name""), ""pack"")",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:47,29-01-2026 17:52:49,1.221s,PASSED
+"click(findTestObject(""Object Repository/TC Product/Page_Add Unit/button_Save""))",Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:49,29-01-2026 17:52:49,0.586s,PASSED
+closeBrowser(),Edge Chromium 144.0.3719.92,,,29-01-2026 17:52:49,29-01-2026 17:52:49,0.264s,PASSED

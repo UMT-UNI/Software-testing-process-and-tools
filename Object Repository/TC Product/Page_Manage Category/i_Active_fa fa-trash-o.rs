@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Active_fa fa-trash-o</name>
+   <tag></tag>
+   <elementGuidId>2e60f36b-a24b-4bd6-af76-98feabec9827</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-trash-o</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='dataTableExample3']/tbody/tr/td[4]/center/a[2]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;Delete&quot;i] >> internal:role=link >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>4668fd15-0b2d-444d-a7ca-a8ac7e5865be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-trash-o</value>
+      <webElementGuid>5bcb55d5-18cf-4244-b788-79933bd8ee47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>5ad27ca2-e9c3-445e-9c90-30bd8b7ef53e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dataTableExample3&quot;)/tbody[1]/tr[1]/td[4]/center[1]/a[@class=&quot;btn btn-danger btn-sm&quot;]/i[@class=&quot;fa fa-trash-o&quot;]</value>
+      <webElementGuid>55cc1ce7-62bb-4d66-8bcb-2eb3c71fbe90</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='dataTableExample3']/tbody/tr/td[4]/center/a[2]/i</value>
+      <webElementGuid>0d958d03-e6cf-49ff-bc1a-2fef5de99cbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//center/a[2]/i</value>
+      <webElementGuid>90aed637-20c2-4038-945c-8f2299a16dda</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

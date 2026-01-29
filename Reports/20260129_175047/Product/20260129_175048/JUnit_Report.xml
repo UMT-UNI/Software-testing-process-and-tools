@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Product" time="94.438" tests="5" failures="0" errors="0">
+   <testsuite name="Product" tests="5" failures="0" errors="0" time="94.438" skipped="0" timestamp="2026-01-29T10:51:15.508Z" hostname="sayho - Workspace" id="Test Suites/Product">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Test Process and Tools\\SALERP\\Software-testing-process-and-tools\\Reports\\20260129_175047\\Product\\20260129_175048"/>
+         <property name="logFiles" value="D:\\Test Process and Tools\\SALERP\\Software-testing-process-and-tools\\Reports\\20260129_175047\\Product\\20260129_175048\\console0.log, D:\\Test Process and Tools\\SALERP\\Software-testing-process-and-tools\\Reports\\20260129_175047\\Product\\20260129_175048\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sayho - Workspace"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.3.0"/>
+         <property name="browser" value="Edge Chromium 144.0.3719.92"/>
+         <property name="userFullName" value="Hoang"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="700343d48f0b9bf1710ca2347505ce27"/>
+         <property name="projectName" value="Software-testing-process-and-tools"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/HA/Login" time="44.08" classname="Test Cases/HA/Login" status="PASSED">
+         <system-out><![CDATA[29-01-2026T17:51:17 - [TEST_CASE][PASSED] - Test Cases/HA/Login: Test Cases/HA/Login
+
+29-01-2026T17:51:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2026T17:51:18 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+29-01-2026T17:51:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2026T17:51:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2026T17:51:22 - [TEST_STEP][PASSED] - navigateToUrl("https://saleserpdemo.bdtask-demo.com/v10_demo/"): Navigate to 'https://saleserpdemo.bdtask-demo.com/v10_demo/' successfully
+
+29-01-2026T17:51:25 - [MESSAGE][PASSED] - Navigate to 'https://saleserpdemo.bdtask-demo.com/v10_demo/' successfully
+
+29-01-2026T17:51:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC Login/Page_/input_Email_email"), "admin@gmail.com"): Text 'admin@gmail.com' is set on object 'Object Repository/TC Login/Page_/input_Email_email'
+
+29-01-2026T17:51:36 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/TC Login/Page_/input_Email_email'. Try using Self-healing.
+
+29-01-2026T17:51:36 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] Screenshot: D:/Test Process and Tools/SALERP/Software-testing-process-and-tools/Reports/Self-healing/Object Repository/TC Login/Page_/input_Email_email_CSS.png
+
+29-01-2026T17:51:37 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/TC Login/Page_/input_Email_email' was broken. Propose an alternative one: '#email'.
+
+29-01-2026T17:51:37 - [MESSAGE][WARNING] - Waiting for element timed out
+
+29-01-2026T17:51:47 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/TC Login/Page_/input_Email_email'. Try using Self-healing.
+
+29-01-2026T17:51:47 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/TC Login/Page_/input_Email_email' was broken. Propose an alternative one: '#email'.
+
+29-01-2026T17:51:47 - [MESSAGE][WARNING] - Waiting for element timed out
+
+29-01-2026T17:51:48 - [MESSAGE][PASSED] - Text 'admin@gmail.com' is set on object 'Object Repository/TC Login/Page_/input_Email_email'
+
+29-01-2026T17:51:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC Login/Page_/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/TC Login/Page_/input_Password_password'
+
+29-01-2026T17:51:58 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/TC Login/Page_/input_Password_password'. Try using Self-healing.
+
+29-01-2026T17:51:58 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] Screenshot: D:/Test Process and Tools/SALERP/Software-testing-process-and-tools/Reports/Self-healing/Object Repository/TC Login/Page_/input_Password_password_CSS.png
+
+29-01-2026T17:51:58 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/TC Login/Page_/input_Password_password' was broken. Propose an alternative one: '#password'.
+
+29-01-2026T17:51:58 - [MESSAGE][WARNING] - Waiting for element timed out
+
+29-01-2026T17:51:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC Login/Page_/input_Password_password'
+
+29-01-2026T17:51:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Login/Page_/button_Login")): Object: 'Object Repository/TC Login/Page_/button_Login' is clicked on
+
+29-01-2026T17:52:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Login/Page_/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HA/Add Category" time="12.868" classname="Test Cases/HA/Add Category" status="PASSED">
+         <system-out><![CDATA[29-01-2026T17:52:01 - [TEST_CASE][PASSED] - Test Cases/HA/Add Category: Test Cases/HA/Add Category
+
+29-01-2026T17:52:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2026T17:52:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-01-2026T17:52:01 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+29-01-2026T17:52:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2026T17:52:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2026T17:52:03 - [TEST_STEP][PASSED] - navigateToUrl("https://saleserpdemo.bdtask-demo.com/v10_demo/"): Navigate to 'https://saleserpdemo.bdtask-demo.com/v10_demo/' successfully
+
+29-01-2026T17:52:04 - [MESSAGE][PASSED] - Navigate to 'https://saleserpdemo.bdtask-demo.com/v10_demo/' successfully
+
+29-01-2026T17:52:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC Product/Page_/input_Email_email_1"), "admin@gmail.com"): Text 'admin@gmail.com' is set on object 'Object Repository/TC Product/Page_/input_Email_email_1'
+
+29-01-2026T17:52:05 - [MESSAGE][PASSED] - Text 'admin@gmail.com' is set on object 'Object Repository/TC Product/Page_/input_Email_email_1'
+
+29-01-2026T17:52:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC Product/Page_/input_Password_password_1"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/TC Product/Page_/input_Password_password_1'
+
+29-01-2026T17:52:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC Product/Page_/input_Password_password_1'
+
+29-01-2026T17:52:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_/button_Login")): Object: 'Object Repository/TC Product/Page_/button_Login' is clicked on
+
+29-01-2026T17:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_/button_Login' is clicked on
+
+29-01-2026T17:52:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_Dashboard/a_Product")): Object: 'Object Repository/TC Product/Page_Dashboard/a_Product' is clicked on
+
+29-01-2026T17:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_Dashboard/a_Product' is clicked on
+
+29-01-2026T17:52:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_Dashboard/a_Add Category")): Object: 'Object Repository/TC Product/Page_Dashboard/a_Add Category' is clicked on
+
+29-01-2026T17:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_Dashboard/a_Add Category' is clicked on
+
+29-01-2026T17:52:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC Product/Page_Add Category/input__category_name"), "New Product"): Text 'New Product' is set on object 'Object Repository/TC Product/Page_Add Category/input__category_name'
+
+29-01-2026T17:52:12 - [MESSAGE][PASSED] - Text 'New Product' is set on object 'Object Repository/TC Product/Page_Add Category/input__category_name'
+
+29-01-2026T17:52:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_Add Category/button_Save")): Object: 'Object Repository/TC Product/Page_Add Category/button_Save' is clicked on
+
+29-01-2026T17:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_Add Category/button_Save' is clicked on
+
+29-01-2026T17:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode")): Object: 'Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode' is clicked on
+
+29-01-2026T17:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode' is clicked on
+
+29-01-2026T17:52:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-01-2026T17:52:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HA/Update Category" time="13.28" classname="Test Cases/HA/Update Category" status="PASSED">
+         <system-out><![CDATA[29-01-2026T17:52:14 - [TEST_CASE][PASSED] - Test Cases/HA/Update Category: Test Cases/HA/Update Category
+
+29-01-2026T17:52:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2026T17:52:14 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+29-01-2026T17:52:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2026T17:52:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2026T17:52:15 - [TEST_STEP][PASSED] - navigateToUrl("https://saleserpdemo.bdtask-demo.com/v10_demo/"): Navigate to 'https://saleserpdemo.bdtask-demo.com/v10_demo/' successfully
+
+29-01-2026T17:52:17 - [MESSAGE][PASSED] - Navigate to 'https://saleserpdemo.bdtask-demo.com/v10_demo/' successfully
+
+29-01-2026T17:52:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC Product/Page_/input_Email_email"), "admin@gmail.com"): Text 'admin@gmail.com' is set on object 'Object Repository/TC Product/Page_/input_Email_email'
+
+29-01-2026T17:52:18 - [MESSAGE][PASSED] - Text 'admin@gmail.com' is set on object 'Object Repository/TC Product/Page_/input_Email_email'
+
+29-01-2026T17:52:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC Product/Page_/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/TC Product/Page_/input_Password_password'
+
+29-01-2026T17:52:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC Product/Page_/input_Password_password'
+
+29-01-2026T17:52:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_/button_Login")): Object: 'Object Repository/TC Product/Page_/button_Login' is clicked on
+
+29-01-2026T17:52:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_/button_Login' is clicked on
+
+29-01-2026T17:52:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_Dashboard/a_Product")): Object: 'Object Repository/TC Product/Page_Dashboard/a_Product' is clicked on
+
+29-01-2026T17:52:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_Dashboard/a_Product' is clicked on
+
+29-01-2026T17:52:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_Dashboard/a_Category List")): Object: 'Object Repository/TC Product/Page_Dashboard/a_Category List' is clicked on
+
+29-01-2026T17:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_Dashboard/a_Category List' is clicked on
+
+29-01-2026T17:52:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_Manage Category/a_Active_btn btn-info btn-sm")): Object: 'Object Repository/TC Product/Page_Manage Category/a_Active_btn btn-info btn-sm' is clicked on
+
+29-01-2026T17:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_Manage Category/a_Active_btn btn-info btn-sm' is clicked on
+
+29-01-2026T17:52:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC Product/Page_/input__category_name"), "Edit Category"): Text 'Edit Category' is set on object 'Object Repository/TC Product/Page_/input__category_name'
+
+29-01-2026T17:52:26 - [MESSAGE][PASSED] - Text 'Edit Category' is set on object 'Object Repository/TC Product/Page_/input__category_name'
+
+29-01-2026T17:52:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_/button_Update")): Object: 'Object Repository/TC Product/Page_/button_Update' is clicked on
+
+29-01-2026T17:52:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_/button_Update' is clicked on
+
+29-01-2026T17:52:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-01-2026T17:52:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HA/Delete Category" time="10.637" classname="Test Cases/HA/Delete Category" status="PASSED">
+         <system-out><![CDATA[29-01-2026T17:52:27 - [TEST_CASE][PASSED] - Test Cases/HA/Delete Category: Test Cases/HA/Delete Category
+
+29-01-2026T17:52:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2026T17:52:27 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+29-01-2026T17:52:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2026T17:52:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2026T17:52:28 - [TEST_STEP][PASSED] - navigateToUrl("https://saleserpdemo.bdtask-demo.com/v10_demo/"): Navigate to 'https://saleserpdemo.bdtask-demo.com/v10_demo/' successfully
+
+29-01-2026T17:52:30 - [MESSAGE][PASSED] - Navigate to 'https://saleserpdemo.bdtask-demo.com/v10_demo/' successfully
+
+29-01-2026T17:52:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC Product/Page_/input_Email_email"), "admin@gmail.com"): Text 'admin@gmail.com' is set on object 'Object Repository/TC Product/Page_/input_Email_email'
+
+29-01-2026T17:52:31 - [MESSAGE][PASSED] - Text 'admin@gmail.com' is set on object 'Object Repository/TC Product/Page_/input_Email_email'
+
+29-01-2026T17:52:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC Product/Page_/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/TC Product/Page_/input_Password_password'
+
+29-01-2026T17:52:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC Product/Page_/input_Password_password'
+
+29-01-2026T17:52:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_/button_Login")): Object: 'Object Repository/TC Product/Page_/button_Login' is clicked on
+
+29-01-2026T17:52:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_/button_Login' is clicked on
+
+29-01-2026T17:52:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_Dashboard/a_Product")): Object: 'Object Repository/TC Product/Page_Dashboard/a_Product' is clicked on
+
+29-01-2026T17:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_Dashboard/a_Product' is clicked on
+
+29-01-2026T17:52:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_Dashboard/a_Category List")): Object: 'Object Repository/TC Product/Page_Dashboard/a_Category List' is clicked on
+
+29-01-2026T17:52:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_Dashboard/a_Category List' is clicked on
+
+29-01-2026T17:52:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_Manage Category/i_Active_fa fa-trash-o")): Object: 'Object Repository/TC Product/Page_Manage Category/i_Active_fa fa-trash-o' is clicked on
+
+29-01-2026T17:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_Manage Category/i_Active_fa fa-trash-o' is clicked on
+
+29-01-2026T17:52:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-01-2026T17:52:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HA/Add Unit" time="11.706" classname="Test Cases/HA/Add Unit" status="PASSED">
+         <system-out><![CDATA[29-01-2026T17:52:38 - [TEST_CASE][PASSED] - Test Cases/HA/Add Unit: Test Cases/HA/Add Unit
+
+29-01-2026T17:52:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2026T17:52:38 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+29-01-2026T17:52:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2026T17:52:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2026T17:52:39 - [TEST_STEP][PASSED] - navigateToUrl("https://saleserpdemo.bdtask-demo.com/v10_demo/"): Navigate to 'https://saleserpdemo.bdtask-demo.com/v10_demo/' successfully
+
+29-01-2026T17:52:41 - [MESSAGE][PASSED] - Navigate to 'https://saleserpdemo.bdtask-demo.com/v10_demo/' successfully
+
+29-01-2026T17:52:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC Product/Page_/input_Email_email"), "admin@gmail.com"): Text 'admin@gmail.com' is set on object 'Object Repository/TC Product/Page_/input_Email_email'
+
+29-01-2026T17:52:42 - [MESSAGE][PASSED] - Text 'admin@gmail.com' is set on object 'Object Repository/TC Product/Page_/input_Email_email'
+
+29-01-2026T17:52:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC Product/Page_/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/TC Product/Page_/input_Password_password'
+
+29-01-2026T17:52:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC Product/Page_/input_Password_password'
+
+29-01-2026T17:52:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_/button_Login")): Object: 'Object Repository/TC Product/Page_/button_Login' is clicked on
+
+29-01-2026T17:52:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_/button_Login' is clicked on
+
+29-01-2026T17:52:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_Dashboard/a_Product")): Object: 'Object Repository/TC Product/Page_Dashboard/a_Product' is clicked on
+
+29-01-2026T17:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_Dashboard/a_Product' is clicked on
+
+29-01-2026T17:52:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_Dashboard/a_Add Unit")): Object: 'Object Repository/TC Product/Page_Dashboard/a_Add Unit' is clicked on
+
+29-01-2026T17:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_Dashboard/a_Add Unit' is clicked on
+
+29-01-2026T17:52:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC Product/Page_Add Unit/input__unit_name"), "pack"): Text 'pack' is set on object 'Object Repository/TC Product/Page_Add Unit/input__unit_name'
+
+29-01-2026T17:52:49 - [MESSAGE][PASSED] - Text 'pack' is set on object 'Object Repository/TC Product/Page_Add Unit/input__unit_name'
+
+29-01-2026T17:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC Product/Page_Add Unit/button_Save")): Object: 'Object Repository/TC Product/Page_Add Unit/button_Save' is clicked on
+
+29-01-2026T17:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC Product/Page_Add Unit/button_Save' is clicked on
+
+29-01-2026T17:52:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-01-2026T17:52:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-01-2026T17:51:15 - [TEST_SUITE][PASSED] - Product: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

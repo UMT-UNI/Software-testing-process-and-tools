@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC Login/Page_/input_Email_email",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "#email",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20260129_175047/Product/20260129_175048/Object Repository/TC Login/Page_/input_Email_email_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC Login/Page_/input_Password_password",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "#password",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20260129_175047/Product/20260129_175048/Object Repository/TC Login/Page_/input_Password_password_CSS.png"
+    }
+  ]
+}

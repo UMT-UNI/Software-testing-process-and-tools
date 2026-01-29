@@ -1,0 +1,27 @@
+2026-01-23 11:32:49.925 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\sayho\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-23 11:32:49.928 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\Test Process and Tools\Test\Software-testing-process-and-tools\Include\config\log.properties
+2026-01-23 11:32:50.320 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login
+2026-01-23 11:32:50.489 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Hoang
+2026-01-23 11:32:50.490 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Software-testing-process-and-tools
+2026-01-23 11:32:50.490 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = sayho - Workspace
+2026-01-23 11:32:50.491 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-23 11:32:50.491 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.12.2.200
+2026-01-23 11:32:50.493 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-23 11:32:51.142 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-23 11:32:51.142 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login
+2026-01-23 11:32:51.482 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-23 11:32:51.758 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-23 11:32:51.812 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 23, 2026 11:32:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+2026-01-23 11:32:53.862 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 629f9321313dfc3a2922cc2175031b53
+2026-01-23 11:32:53.864 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.194
+2026-01-23 11:32:53.865 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-23 11:32:53.865 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-23 11:32:53.882 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-23 11:32:53.964 DEBUG testcase.Login                           - 2: navigateToUrl("https://saleserpdemo.bdtask-demo.com/v10_demo/")
+2026-01-23 11:32:55.515 DEBUG testcase.Login                           - 3: setText(findTestObject("Object Repository/TC Login/Page_/input_Email_email"), "admin@gmail.com")
+2026-01-23 11:33:05.810 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/TC Login/Page_/input_Email_email'. Try using Self-healing.
+2026-01-23 11:33:06.374 INFO  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Screenshot: D:/Test Process and Tools/Test/Software-testing-process-and-tools/Reports/Self-healing/Object Repository/TC Login/Page_/input_Email_email_CSS.png
+2026-01-23 11:33:06.394 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/TC Login/Page_/input_Email_email' was broken. Propose an alternative one: '#email'.
+2026-01-23 11:33:06.434 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
