@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Active_btn btn-danger btn-sm</name>
+   <tag></tag>
+   <elementGuidId>622d1456-c4cc-4b8a-9874-6dd25bc0f333</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-danger.btn-sm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;return confirm('Are You Sure To Want To Delete ?')&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;Delete&quot;i] >> internal:role=link >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9c3b737f-3c4a-470c-b789-f3888ca89a58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://saleserpdemo.bdtask-demo.com/v10_demo/product/product/bdtask_deletecategory/2</value>
+      <webElementGuid>6ac34083-0962-48c4-884e-a8c9f1764c78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-danger btn-sm</value>
+      <webElementGuid>947684b9-ee80-4677-8dd4-ff51ea18c155</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>return confirm('Are You Sure To Want To Delete ?')</value>
+      <webElementGuid>ba77f3f4-db1c-441d-aac6-e8942f31cd3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>tooltip</value>
+      <webElementGuid>a3d8c257-c5dd-4b3f-a3a4-afea1e9372f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-placement</name>
+      <type>Main</type>
+      <value>right</value>
+      <webElementGuid>5f7186e3-dcc6-4570-832f-211867e888c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-original-title</name>
+      <type>Main</type>
+      <value>Delete </value>
+      <webElementGuid>cd8ba1dd-d1b2-4fc9-881e-8805d51ce646</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>tooltip933555</value>
+      <webElementGuid>98f5a7f5-7dea-45a0-9474-cc05a0f8b603</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dataTableExample3&quot;)/tbody[1]/tr[1]/td[4]/center[1]/a[@class=&quot;btn btn-danger btn-sm&quot;]</value>
+      <webElementGuid>58475137-5e29-4321-9579-45f6c08d333c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;return confirm('Are You Sure To Want To Delete ?')&quot;]</value>
+      <webElementGuid>f1f9f13b-d979-4c01-a25d-38bc88ad454d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='dataTableExample3']/tbody/tr/td[4]/center/a[2]</value>
+      <webElementGuid>b439715d-255e-4f22-aab7-00a76f91e482</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::a[2]</value>
+      <webElementGuid>4aeed224-6328-4dce-9710-1c87c15e17d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Crockeries'])[1]/following::a[2]</value>
+      <webElementGuid>86664916-5761-43a1-becf-dbdc2b61bafc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::a[1]</value>
+      <webElementGuid>ce5d8e52-8451-4bcd-8956-cdcf29d975b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chocolate'])[1]/preceding::a[1]</value>
+      <webElementGuid>996ac0c5-8182-4396-9349-57f6adbea87f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://saleserpdemo.bdtask-demo.com/v10_demo/product/product/bdtask_deletecategory/2')]</value>
+      <webElementGuid>e9a94681-fe61-4239-987d-8e31979a13a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//center/a[2]</value>
+      <webElementGuid>26718948-a2c4-4c8e-9b72-84b2089c9527</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://saleserpdemo.bdtask-demo.com/v10_demo/product/product/bdtask_deletecategory/2']</value>
+      <webElementGuid>bcaf886f-17ac-49f6-8db7-5fc390013cac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

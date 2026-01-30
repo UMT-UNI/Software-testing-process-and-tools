@@ -8,7 +8,7 @@
       "proposedLocator": "#email",
       "proposedLocatorMethod": "CSS",
       "recoveryMethod": "CSS",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC Login/Page_/input_Email_email_CSS.png"
+      "pathToScreenshot": "Reports/20260129_175047/Product/20260129_175048/Object Repository/TC Login/Page_/input_Email_email_CSS.png"
     },
     {
       "approved": true,
@@ -18,7 +18,7 @@
       "proposedLocator": "#password",
       "proposedLocatorMethod": "CSS",
       "recoveryMethod": "CSS",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC Login/Page_/input_Password_password_CSS.png"
+      "pathToScreenshot": "Reports/20260129_175047/Product/20260129_175048/Object Repository/TC Login/Page_/input_Password_password_CSS.png"
     }
   ]
 }

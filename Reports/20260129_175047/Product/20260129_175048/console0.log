@@ -1,0 +1,135 @@
+2026-01-29 17:51:14.540 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\sayho\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-29 17:51:14.546 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\Test Process and Tools\SALERP\Software-testing-process-and-tools\Include\config\log.properties
+2026-01-29 17:51:15.261 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Product
+2026-01-29 17:51:15.568 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Hoang
+2026-01-29 17:51:15.570 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Software-testing-process-and-tools
+2026-01-29 17:51:15.572 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = sayho - Workspace
+2026-01-29 17:51:15.574 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-29 17:51:15.577 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.9
+2026-01-29 17:51:15.580 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-29 17:51:17.246 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-29 17:51:17.247 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HA/Login
+2026-01-29 17:51:18.029 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-29 17:51:18.428 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-01-29 17:51:18.573 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 29, 2026 5:51:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-29 17:51:22.725 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1cb0068b7694bc72ac06e61d261e8a12
+2026-01-29 17:51:22.727 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 144.0.3719.92
+2026-01-29 17:51:22.729 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-29 17:51:22.731 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-29 17:51:22.754 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-29 17:51:22.922 DEBUG testcase.Login                           - 2: navigateToUrl("https://saleserpdemo.bdtask-demo.com/v10_demo/")
+2026-01-29 17:51:25.672 DEBUG testcase.Login                           - 3: setText(findTestObject("Object Repository/TC Login/Page_/input_Email_email"), "admin@gmail.com")
+2026-01-29 17:51:36.132 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/TC Login/Page_/input_Email_email'. Try using Self-healing.
+2026-01-29 17:51:36.989 INFO  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Screenshot: D:/Test Process and Tools/SALERP/Software-testing-process-and-tools/Reports/Self-healing/Object Repository/TC Login/Page_/input_Email_email_CSS.png
+2026-01-29 17:51:37.033 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/TC Login/Page_/input_Email_email' was broken. Propose an alternative one: '#email'.
+2026-01-29 17:51:37.115 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-01-29 17:51:47.457 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/TC Login/Page_/input_Email_email'. Try using Self-healing.
+2026-01-29 17:51:47.802 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/TC Login/Page_/input_Email_email' was broken. Propose an alternative one: '#email'.
+2026-01-29 17:51:47.832 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-01-29 17:51:48.003 DEBUG testcase.Login                           - 4: setEncryptedText(findTestObject("Object Repository/TC Login/Page_/input_Password_password"), "aeHFOx8jV/A=")
+2026-01-29 17:51:58.123 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/TC Login/Page_/input_Password_password'. Try using Self-healing.
+2026-01-29 17:51:58.645 INFO  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Screenshot: D:/Test Process and Tools/SALERP/Software-testing-process-and-tools/Reports/Self-healing/Object Repository/TC Login/Page_/input_Password_password_CSS.png
+2026-01-29 17:51:58.660 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/TC Login/Page_/input_Password_password' was broken. Propose an alternative one: '#password'.
+2026-01-29 17:51:58.682 WARN  c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Waiting for element timed out
+2026-01-29 17:51:58.866 DEBUG testcase.Login                           - 5: click(findTestObject("Object Repository/TC Login/Page_/button_Login"))
+2026-01-29 17:52:01.325 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HA/Login
+2026-01-29 17:52:01.332 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-01-29 17:52:01.333 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-01-29 17:52:01.335 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-01-29 17:52:01.336 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-01-29 17:52:01.339 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-01-29 17:52:01.358 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-29 17:52:01.358 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HA/Add Category
+2026-01-29 17:52:01.480 DEBUG testcase.Add Category                    - 1: openBrowser("")
+2026-01-29 17:52:01.491 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-01-29 17:52:01.790 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-01-29 17:52:01.795 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 29, 2026 5:52:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-29 17:52:02.996 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 01574575c0597f6b5fa640dd401c6cc0
+2026-01-29 17:52:02.998 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 144.0.3719.92
+2026-01-29 17:52:02.999 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-29 17:52:03.001 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-29 17:52:03.002 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-29 17:52:03.051 DEBUG testcase.Add Category                    - 2: navigateToUrl("https://saleserpdemo.bdtask-demo.com/v10_demo/")
+2026-01-29 17:52:04.449 DEBUG testcase.Add Category                    - 3: setText(findTestObject("Object Repository/TC Product/Page_/input_Email_email_1"), "admin@gmail.com")
+2026-01-29 17:52:05.660 DEBUG testcase.Add Category                    - 4: setEncryptedText(findTestObject("Object Repository/TC Product/Page_/input_Password_password_1"), "aeHFOx8jV/A=")
+2026-01-29 17:52:06.337 DEBUG testcase.Add Category                    - 5: click(findTestObject("Object Repository/TC Product/Page_/button_Login"))
+2026-01-29 17:52:09.025 DEBUG testcase.Add Category                    - 6: click(findTestObject("Object Repository/TC Product/Page_Dashboard/a_Product"))
+2026-01-29 17:52:09.869 DEBUG testcase.Add Category                    - 7: click(findTestObject("Object Repository/TC Product/Page_Dashboard/a_Add Category"))
+2026-01-29 17:52:11.476 DEBUG testcase.Add Category                    - 8: setText(findTestObject("Object Repository/TC Product/Page_Add Category/input__category_name"), "New Product")
+2026-01-29 17:52:12.666 DEBUG testcase.Add Category                    - 9: click(findTestObject("Object Repository/TC Product/Page_Add Category/button_Save"))
+2026-01-29 17:52:13.162 DEBUG testcase.Add Category                    - 10: click(findTestObject("Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode"))
+2026-01-29 17:52:13.944 DEBUG testcase.Add Category                    - 11: closeBrowser()
+2026-01-29 17:52:14.226 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HA/Add Category
+2026-01-29 17:52:14.230 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-29 17:52:14.230 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HA/Update Category
+2026-01-29 17:52:14.294 DEBUG testcase.Update Category                 - 1: openBrowser("")
+2026-01-29 17:52:14.302 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-01-29 17:52:14.307 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 29, 2026 5:52:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-29 17:52:15.432 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6a47b49c00c1ae2e0622d70d08b4c8ce
+2026-01-29 17:52:15.433 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 144.0.3719.92
+2026-01-29 17:52:15.433 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-29 17:52:15.434 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-29 17:52:15.436 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-29 17:52:15.478 DEBUG testcase.Update Category                 - 2: navigateToUrl("https://saleserpdemo.bdtask-demo.com/v10_demo/")
+2026-01-29 17:52:17.102 DEBUG testcase.Update Category                 - 3: setText(findTestObject("Object Repository/TC Product/Page_/input_Email_email"), "admin@gmail.com")
+2026-01-29 17:52:18.196 DEBUG testcase.Update Category                 - 4: setEncryptedText(findTestObject("Object Repository/TC Product/Page_/input_Password_password"), "aeHFOx8jV/A=")
+2026-01-29 17:52:18.807 DEBUG testcase.Update Category                 - 5: click(findTestObject("Object Repository/TC Product/Page_/button_Login"))
+2026-01-29 17:52:21.144 DEBUG testcase.Update Category                 - 6: click(findTestObject("Object Repository/TC Product/Page_Dashboard/a_Product"))
+2026-01-29 17:52:22.057 DEBUG testcase.Update Category                 - 7: click(findTestObject("Object Repository/TC Product/Page_Dashboard/a_Category List"))
+2026-01-29 17:52:23.897 DEBUG testcase.Update Category                 - 8: click(findTestObject("Object Repository/TC Product/Page_Manage Category/a_Active_btn btn-info btn-sm"))
+2026-01-29 17:52:25.485 DEBUG testcase.Update Category                 - 9: setText(findTestObject("Object Repository/TC Product/Page_/input__category_name"), "Edit Category")
+2026-01-29 17:52:26.633 DEBUG testcase.Update Category                 - 10: click(findTestObject("Object Repository/TC Product/Page_/button_Update"))
+2026-01-29 17:52:27.210 DEBUG testcase.Update Category                 - 11: closeBrowser()
+2026-01-29 17:52:27.509 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HA/Update Category
+2026-01-29 17:52:27.560 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-29 17:52:27.561 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HA/Delete Category
+2026-01-29 17:52:27.647 DEBUG testcase.Delete Category                 - 1: openBrowser("")
+2026-01-29 17:52:27.652 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-01-29 17:52:27.658 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 29, 2026 5:52:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-29 17:52:28.761 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 56ebff977ff489e12e30eb6c75ad9a0e
+2026-01-29 17:52:28.762 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 144.0.3719.92
+2026-01-29 17:52:28.763 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-29 17:52:28.764 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-29 17:52:28.765 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-29 17:52:28.795 DEBUG testcase.Delete Category                 - 2: navigateToUrl("https://saleserpdemo.bdtask-demo.com/v10_demo/")
+2026-01-29 17:52:30.231 DEBUG testcase.Delete Category                 - 3: setText(findTestObject("Object Repository/TC Product/Page_/input_Email_email"), "admin@gmail.com")
+2026-01-29 17:52:31.293 DEBUG testcase.Delete Category                 - 4: setEncryptedText(findTestObject("Object Repository/TC Product/Page_/input_Password_password"), "aeHFOx8jV/A=")
+2026-01-29 17:52:31.917 DEBUG testcase.Delete Category                 - 5: click(findTestObject("Object Repository/TC Product/Page_/button_Login"))
+2026-01-29 17:52:34.241 DEBUG testcase.Delete Category                 - 6: click(findTestObject("Object Repository/TC Product/Page_Dashboard/a_Product"))
+2026-01-29 17:52:35.173 DEBUG testcase.Delete Category                 - 7: click(findTestObject("Object Repository/TC Product/Page_Dashboard/a_Category List"))
+2026-01-29 17:52:36.957 DEBUG testcase.Delete Category                 - 8: click(findTestObject("Object Repository/TC Product/Page_Manage Category/i_Active_fa fa-trash-o"))
+2026-01-29 17:52:37.775 DEBUG testcase.Delete Category                 - 9: closeBrowser()
+2026-01-29 17:52:38.198 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HA/Delete Category
+2026-01-29 17:52:38.238 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-29 17:52:38.239 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HA/Add Unit
+2026-01-29 17:52:38.386 DEBUG testcase.Add Unit                        - 1: openBrowser("")
+2026-01-29 17:52:38.398 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-01-29 17:52:38.405 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 29, 2026 5:52:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-29 17:52:39.775 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 700343d48f0b9bf1710ca2347505ce27
+2026-01-29 17:52:39.777 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 144.0.3719.92
+2026-01-29 17:52:39.778 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-29 17:52:39.779 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-29 17:52:39.780 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-29 17:52:39.814 DEBUG testcase.Add Unit                        - 2: navigateToUrl("https://saleserpdemo.bdtask-demo.com/v10_demo/")
+2026-01-29 17:52:41.322 DEBUG testcase.Add Unit                        - 3: setText(findTestObject("Object Repository/TC Product/Page_/input_Email_email"), "admin@gmail.com")
+2026-01-29 17:52:42.391 DEBUG testcase.Add Unit                        - 4: setEncryptedText(findTestObject("Object Repository/TC Product/Page_/input_Password_password"), "aeHFOx8jV/A=")
+2026-01-29 17:52:43.023 DEBUG testcase.Add Unit                        - 5: click(findTestObject("Object Repository/TC Product/Page_/button_Login"))
+2026-01-29 17:52:45.186 DEBUG testcase.Add Unit                        - 6: click(findTestObject("Object Repository/TC Product/Page_Dashboard/a_Product"))
+2026-01-29 17:52:46.121 DEBUG testcase.Add Unit                        - 7: click(findTestObject("Object Repository/TC Product/Page_Dashboard/a_Add Unit"))
+2026-01-29 17:52:47.870 DEBUG testcase.Add Unit                        - 8: setText(findTestObject("Object Repository/TC Product/Page_Add Unit/input__unit_name"), "pack")
+2026-01-29 17:52:49.093 DEBUG testcase.Add Unit                        - 9: click(findTestObject("Object Repository/TC Product/Page_Add Unit/button_Save"))
+2026-01-29 17:52:49.679 DEBUG testcase.Add Unit                        - 10: closeBrowser()
+2026-01-29 17:52:49.945 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HA/Add Unit
+2026-01-29 17:52:49.988 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-29 17:52:49.988 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Product
+2026-01-29 17:52:49.988 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
