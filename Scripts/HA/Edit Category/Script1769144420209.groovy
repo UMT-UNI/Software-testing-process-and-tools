@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'pack.Login.loginToWebsiteGlobalVariable'()
+
+WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Product'))
+
+WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Category List'))
+
+WebUI.click(findTestObject('Object Repository/TC Product/Page_Manage Category/a_Active_btn btn-info btn-sm'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Login/input__category_name'), 'Edit Category')
+
+WebUI.click(findTestObject('TC Product/Page_Category_id/button_Update'))
+
+WebUI.closeBrowser()
+

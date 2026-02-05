@@ -45,11 +45,10 @@ public class Login {
 		WebUI.openBrowser(url)
 		WebUI.waitForPageLoad(GlobalVariable.waitPresentTimeout)
 		WebUI.maximizeWindow()
-
 		
-		WebUI.sendKeys(findTestObject('TC Login/Page_Login/input_Email_email'), username)
-		WebUI.sendKeys(findTestObject('TC Login/Page_Login/input_Password_password'), password)
-		WebUI.click(findTestObject('TC Login/Page_Login/button_Login'))
+		WebUI.sendKeys(findTestObject('Page_Login/input_Email_email'), username)
+		WebUI.sendKeys(findTestObject('Page_Login/input_Password_password'), password)
+		WebUI.click(findTestObject('Page_Login/button_Login'))
 		WebUI.delay(1)
 	}
 		

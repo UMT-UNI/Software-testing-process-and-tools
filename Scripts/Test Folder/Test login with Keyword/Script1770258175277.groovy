@@ -17,25 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://saleserpdemo.bdtask-demo.com/v10_demo/')
-
-WebUI.setText(findTestObject('Object Repository/TC Product/Page_Login/input_Email_email'), 'admin@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/TC Product/Page_Login/input_Password_password'), 'aeHFOx8jV/A=')
-
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Login/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Product'))
-
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Category List'))
-
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Manage Category/a_Active_btn btn-info btn-sm'))
-
-WebUI.setText(findTestObject('Object Repository/TC Product/Page_Login/input__category_name'), 'Edit Category')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.closeBrowser()
-
+CustomKeywords.'pack.Login.loginToWebsiteGlobalVariable'()
