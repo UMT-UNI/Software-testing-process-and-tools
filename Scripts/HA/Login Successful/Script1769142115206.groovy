@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://saleserpdemo.bdtask-demo.com/v10_demo/')
 
-WebUI.setText(findTestObject('Object Repository/TC Login/Page_/input_Email_email'), 'admin@gmail.com')
+WebUI.setText(findTestObject('TC Product/Page_Login/input_Email_email'), 'admin@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TC Login/Page_/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('TC Product/Page_Login/input_Password_password'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/TC Login/Page_/button_Login'))
+WebUI.click(findTestObject('TC Product/Page_Login/button_Login'))
 

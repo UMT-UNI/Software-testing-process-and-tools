@@ -47,9 +47,9 @@ public class Login {
 		WebUI.maximizeWindow()
 
 		
-		WebUI.sendKeys(findTestObject('TC Login/Page_/input_Email_email'), username)
-		WebUI.sendKeys(findTestObject('TC Login/Page_/input_Password_password'), password)
-		WebUI.click(findTestObject('TC Login/Page_/button_Login'))
+		WebUI.sendKeys(findTestObject('TC Login/Page_Login/input_Email_email'), username)
+		WebUI.sendKeys(findTestObject('TC Login/Page_Login/input_Password_password'), password)
+		WebUI.click(findTestObject('TC Login/Page_Login/button_Login'))
 		WebUI.delay(1)
 	}
 		

@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://saleserpdemo.bdtask-demo.com/v10_demo/')
 
-WebUI.setText(findTestObject('Object Repository/TC Product/Page_/input_Email_email'), 'admin@gmail.com')
+WebUI.setText(findTestObject('Object Repository/TC Product/Page_Login/input_Email_email'), 'admin@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TC Product/Page_/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TC Product/Page_Login/input_Password_password'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/TC Product/Page_/button_Login'))
+WebUI.click(findTestObject('Object Repository/TC Product/Page_Login/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Product'))
 
@@ -33,9 +33,9 @@ WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Catego
 
 WebUI.click(findTestObject('Object Repository/TC Product/Page_Manage Category/a_Active_btn btn-info btn-sm'))
 
-WebUI.setText(findTestObject('Object Repository/TC Product/Page_/input__category_name'), 'Edit Category')
+WebUI.setText(findTestObject('Object Repository/TC Product/Page_Login/input__category_name'), 'Edit Category')
 
-WebUI.click(findTestObject('Object Repository/TC Product/Page_/button_Update'))
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 

@@ -21,9 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://saleserpdemo.bdtask-demo.com/v10_demo/')
 
-WebUI.setText(findTestObject('Object Repository/TC Product/Page_/input_Email_email'), 'admin@gmail.com')
+WebUI.setText(findTestObject('Object Repository/TC Product/Page_Login/input_Email_email'), 'admin@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TC Product/Page_/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TC Product/Page_Login/input_Password_password'), 'aeHFOx8jV/A=')
+
+WebUI.click(findTestObject('TC Product/Page_Login/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Product'))
 
@@ -31,9 +33,9 @@ WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Unit L
 
 WebUI.click(findTestObject('Object Repository/TC Product/Page_Manage Unit/a_editBtn'))
 
-WebUI.setText(findTestObject('Object Repository/TC Product/Page_/input__unit_name'), 'KG')
+WebUI.setText(findTestObject('Object Repository/TC Product/Page_Login/input__unit_name'), 'KG')
 
-WebUI.click(findTestObject('Object Repository/TC Product/Page_/button_Update'))
+WebUI.click(findTestObject(null))
 
 WebUI.closeBrowser()
 
