@@ -19,9 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'pack.Login.loginToWebsiteGlobalVariable'()
 
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Product'))
-
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Category List'))
+CustomKeywords.'pack.Category.CategoryListDirect'()
 
 WebUI.click(findTestObject('Object Repository/TC Product/Page_Manage Category/a_viewCategoryId'))
 

@@ -19,11 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'pack.Login.loginToWebsiteGlobalVariable'()
 
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Product'))
+CustomKeywords.'pack.Category.AddCategoryDirect'()
 
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Add Category'))
-
-WebUI.setText(findTestObject('Object Repository/TC Product/Page_Add Category/input__CategoryName'), 'New Product')
+WebUI.setText(findTestObject('Object Repository/TC Product/Page_Add Category/input__CategoryName'), 'Bánh kẹo')
 
 WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Category/btn_Save'))
 
