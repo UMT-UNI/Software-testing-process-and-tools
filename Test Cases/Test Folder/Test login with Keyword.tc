@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Update Category</name>
+   <name>Test login with Keyword</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>03c8d885-7899-4788-8f02-3f92d0e100e2</testCaseGuid>
+   <testCaseGuid>4f0b748f-f001-49d8-a355-983fb0e6f611</testCaseGuid>
 </TestCaseEntity>
