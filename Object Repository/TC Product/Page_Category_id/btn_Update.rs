@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Save</name>
+   <name>btn_Update</name>
    <tag></tag>
-   <elementGuidId>7879889f-1cf1-47d5-b64e-32022f10bf77</elementGuidId>
+   <elementGuidId>c6147064-7e62-43ff-8397-c329a7a3205c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -18,7 +18,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Save&quot;s]</value>
+         <value>internal:role=button[name=&quot;Update&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>33b7b002-1bfb-4e63-8172-11a25b7e9309</webElementGuid>
+      <webElementGuid>12fcb39a-9dd1-48a6-b4da-dae7113b12d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>3aee5b49-3a46-4bfb-8323-46ce7c3c04b4</webElementGuid>
+      <webElementGuid>f80e5b40-2494-418a-aa39-2256f760d197</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-success </value>
-      <webElementGuid>419927fb-3d63-4873-81a6-39ebb3d87afc</webElementGuid>
+      <webElementGuid>b80434c1-6dff-46fb-a695-1e72052fe321</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,16 +53,16 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                             Save</value>
-      <webElementGuid>52ec3e5d-dafe-4c65-9bc7-a0c0d34577e3</webElementGuid>
+                                                Update</value>
+      <webElementGuid>b2a6f2c8-da48-44f5-89b1-1147c4452e10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;unit_form&quot;)/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-sm-6 text-right&quot;]/button[@class=&quot;btn btn-success&quot;]</value>
-      <webElementGuid>b7247ab9-80cd-4f40-a1c6-7f9a0783739c</webElementGuid>
+      <value>id(&quot;category_form&quot;)/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-sm-6 text-right&quot;]/button[@class=&quot;btn btn-success&quot;]</value>
+      <webElementGuid>37588ea5-863d-461d-b143-09ca31c5b1d5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,15 +70,15 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>478d293b-9d8c-4c83-a8a6-3d10ff896847</webElementGuid>
+      <webElementGuid>e58bd291-ebe9-4130-bcbb-c920089fad6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='unit_form']/div[3]/div/button</value>
-      <webElementGuid>f5f0b82d-5eb8-436f-862f-3c5bbfc8a476</webElementGuid>
+      <value>//form[@id='category_form']/div[3]/div/button</value>
+      <webElementGuid>733edbfe-d744-4639-acd7-116605b95279</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,23 +86,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::button[1]</value>
-      <webElementGuid>4b5aa8f6-4f4d-4c6f-9dd4-86e935f7ec57</webElementGuid>
+      <webElementGuid>e2b416a5-f05f-4c28-9837-12448d4f4e22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save And Add Another'])[1]/preceding::button[1]</value>
-      <webElementGuid>e6bdc968-9a97-4d8b-a2df-1a50889a51a9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CE'])[1]/preceding::button[4]</value>
+      <webElementGuid>076c5566-bdc0-4f07-bb44-fc21abb02476</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
-      <webElementGuid>90eff169-eadb-4fc9-bdb7-e05be1a15c39</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Update']/parent::*</value>
+      <webElementGuid>d5fa3dfe-fc69-4f0b-aa83-ee70d4d2a256</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>05510093-232b-4bca-9b74-1b4e2c5044d8</webElementGuid>
+      <webElementGuid>34ce6db3-0461-4532-8760-77be0cef3b3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,8 +118,8 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = '
-                             Save' or . = '
-                             Save')]</value>
-      <webElementGuid>7eacc944-0c33-4bfa-a3a0-3b0d0961b7c4</webElementGuid>
+                                                Update' or . = '
+                                                Update')]</value>
+      <webElementGuid>13a038ca-db22-40a1-a8ab-80cf76ad2555</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

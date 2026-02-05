@@ -23,9 +23,9 @@ WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Produc
 
 WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Add Unit'))
 
-WebUI.setText(findTestObject('Object Repository/TC Product/Page_Add Unit/input__unit_name'), 'pack')
+WebUI.setText(findTestObject('Object Repository/TC Product/Page_Add Unit/input__UnitName'), 'pack')
 
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Unit/button_Save'))
+WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Unit/btn_Save'))
 
 WebUI.closeBrowser()
 

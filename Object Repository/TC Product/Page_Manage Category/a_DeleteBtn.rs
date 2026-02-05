@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Active_btn btn-info btn-sm</name>
+   <name>a_deleteBtn</name>
    <tag></tag>
-   <elementGuidId>bf27f3b5-3167-4485-9ab7-25d7451dcb32</elementGuidId>
+   <elementGuidId>622d1456-c4cc-4b8a-9874-6dd25bc0f333</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.btn.btn-info.btn-sm</value>
+         <value>a.btn.btn-danger.btn-sm</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='dataTableExample3']/tbody/tr/td[4]/center/a</value>
+         <value>//a[@onclick=&quot;return confirm('Are You Sure To Want To Delete ?')&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;Update&quot;i] >> internal:role=link >> nth=0</value>
+         <value>internal:role=cell[name=&quot;Delete&quot;i] >> internal:role=link >> nth=1</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,23 +29,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9b811f92-9e9f-4102-8c2c-3c53f7e64be2</webElementGuid>
+      <webElementGuid>9c3b737f-3c4a-470c-b789-f3888ca89a58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://saleserpdemo.bdtask-demo.com/v10_demo/category_form/2</value>
-      <webElementGuid>eff04a41-a370-4a7a-849e-af8683bb950f</webElementGuid>
+      <value>https://saleserpdemo.bdtask-demo.com/v10_demo/product/product/bdtask_deletecategory/2</value>
+      <webElementGuid>6ac34083-0962-48c4-884e-a8c9f1764c78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-info btn-sm</value>
-      <webElementGuid>1814be05-95e0-4762-978b-ff9b91224c71</webElementGuid>
+      <value>btn btn-danger btn-sm</value>
+      <webElementGuid>947684b9-ee80-4677-8dd4-ff51ea18c155</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>return confirm('Are You Sure To Want To Delete ?')</value>
+      <webElementGuid>ba77f3f4-db1c-441d-aac6-e8942f31cd3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,102 +61,110 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>3bcc7e9f-fda4-47d4-a009-e250e1dbf8ec</webElementGuid>
+      <webElementGuid>a3d8c257-c5dd-4b3f-a3a4-afea1e9372f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-placement</name>
       <type>Main</type>
-      <value>left</value>
-      <webElementGuid>1228889d-b7f8-4bbd-8af3-e64e6cf32e34</webElementGuid>
+      <value>right</value>
+      <webElementGuid>5f7186e3-dcc6-4570-832f-211867e888c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-original-title</name>
       <type>Main</type>
-      <value>Update</value>
-      <webElementGuid>b2b06d7e-303e-4e7b-ac63-a02e05badde9</webElementGuid>
+      <value>Delete </value>
+      <webElementGuid>cd8ba1dd-d1b2-4fc9-881e-8805d51ce646</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-describedby</name>
       <type>Main</type>
-      <value>tooltip270201</value>
-      <webElementGuid>a6261b8c-3731-40f7-bcb4-fda9064e3350</webElementGuid>
+      <value>tooltip933555</value>
+      <webElementGuid>98f5a7f5-7dea-45a0-9474-cc05a0f8b603</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dataTableExample3&quot;)/tbody[1]/tr[1]/td[4]/center[1]/a[@class=&quot;btn btn-info btn-sm&quot;]</value>
-      <webElementGuid>21659f2f-8a24-4a07-aaf8-88c92dd633bf</webElementGuid>
+      <value>id(&quot;dataTableExample3&quot;)/tbody[1]/tr[1]/td[4]/center[1]/a[@class=&quot;btn btn-danger btn-sm&quot;]</value>
+      <webElementGuid>58475137-5e29-4321-9579-45f6c08d333c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;return confirm('Are You Sure To Want To Delete ?')&quot;]</value>
+      <webElementGuid>f1f9f13b-d979-4c01-a25d-38bc88ad454d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='dataTableExample3']/tbody/tr/td[4]/center/a</value>
-      <webElementGuid>a706bcc6-8955-415a-9035-15280459a587</webElementGuid>
+      <value>//table[@id='dataTableExample3']/tbody/tr/td[4]/center/a[2]</value>
+      <webElementGuid>b439715d-255e-4f22-aab7-00a76f91e482</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::a[1]</value>
-      <webElementGuid>5e1ae77c-88f0-4f11-aec5-398a3d816871</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::a[2]</value>
+      <webElementGuid>4aeed224-6328-4dce-9710-1c87c15e17d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Crockeries'])[1]/following::a[1]</value>
-      <webElementGuid>ff37492b-8b9e-4844-9dcb-f99276ee7cf2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Crockeries'])[1]/following::a[2]</value>
+      <webElementGuid>86664916-5761-43a1-becf-dbdc2b61bafc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Update'])[1]/preceding::a[1]</value>
-      <webElementGuid>d37925a0-5d54-4db7-8b5d-ea55887c9dc2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::a[1]</value>
+      <webElementGuid>ce5d8e52-8451-4bcd-8956-cdcf29d975b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chocolate'])[1]/preceding::a[2]</value>
-      <webElementGuid>550ad730-d6ad-4236-967e-68993168a803</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chocolate'])[1]/preceding::a[1]</value>
+      <webElementGuid>996ac0c5-8182-4396-9349-57f6adbea87f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://saleserpdemo.bdtask-demo.com/v10_demo/category_form/2')]</value>
-      <webElementGuid>3c9eddfc-23be-42df-a9c2-e634efa55782</webElementGuid>
+      <value>//a[contains(@href, 'https://saleserpdemo.bdtask-demo.com/v10_demo/product/product/bdtask_deletecategory/2')]</value>
+      <webElementGuid>e9a94681-fe61-4239-987d-8e31979a13a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//center/a</value>
-      <webElementGuid>65950ccb-723d-4fd1-a992-7647819a099a</webElementGuid>
+      <value>//center/a[2]</value>
+      <webElementGuid>26718948-a2c4-4c8e-9b72-84b2089c9527</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'https://saleserpdemo.bdtask-demo.com/v10_demo/category_form/2']</value>
-      <webElementGuid>949906db-c6f5-4b23-bca6-933b0f6c7501</webElementGuid>
+      <value>//a[@href = 'https://saleserpdemo.bdtask-demo.com/v10_demo/product/product/bdtask_deletecategory/2']</value>
+      <webElementGuid>bcaf886f-17ac-49f6-8db7-5fc390013cac</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

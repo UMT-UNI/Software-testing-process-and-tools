@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__category_name</name>
+   <name>input__UnitName</name>
    <tag></tag>
-   <elementGuidId>374463ce-85c2-43d8-a934-626e1d6d3aa6</elementGuidId>
+   <elementGuidId>d197c685-a356-4e26-9545-3b72323611cb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#category_name</value>
+         <value>#unit_name</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='category_name']</value>
+         <value>//input[@id='unit_name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Category Name&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Unit Name&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7a14b8eb-8687-426c-853a-f70fe988c07a</webElementGuid>
+      <webElementGuid>d0ddf1c3-1164-4855-8cb1-ed6ee0727f24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,15 +37,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>db526ffa-614e-4c8a-ba42-4955261bd158</webElementGuid>
+      <webElementGuid>daa76120-18ee-40b6-ac7c-4259c6a88fcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>category_name</value>
-      <webElementGuid>2fe0f581-c870-4c6c-b3a6-e730f01a3002</webElementGuid>
+      <value>unit_name</value>
+      <webElementGuid>0798d99c-95ab-44ed-b479-f380fdb5d48c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,47 +53,47 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>1c7f6b15-6817-4424-aea0-a4c9de8ae2ba</webElementGuid>
+      <webElementGuid>97ee2de7-fa89-4a2c-84e5-e8315c5887ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>category_name</value>
-      <webElementGuid>32633d15-4f16-459d-9d93-ea2e7f302af0</webElementGuid>
+      <value>unit_name</value>
+      <webElementGuid>90bd19c4-f866-4b77-ae8a-ab113876ae17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Category Name</value>
-      <webElementGuid>7ec69867-8f47-4c2c-823a-87c278fa556e</webElementGuid>
+      <value>Unit Name</value>
+      <webElementGuid>ad6c3aa9-5150-4aeb-9de8-398239a4c1b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;category_name&quot;)</value>
-      <webElementGuid>946e917a-0c04-4f0b-b723-29e5c466aa48</webElementGuid>
+      <value>id(&quot;unit_name&quot;)</value>
+      <webElementGuid>c80949a4-ed96-45f7-bb2e-42a547169b8a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='category_name']</value>
-      <webElementGuid>2c698283-1dab-4a99-8d22-12b0ffe0f5af</webElementGuid>
+      <value>//input[@id='unit_name']</value>
+      <webElementGuid>e788b685-bd95-4fb2-b776-617f510dc51a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='category_form']/div/div/input</value>
-      <webElementGuid>4b887a1c-c93d-4956-b5e2-28556b8cfc4a</webElementGuid>
+      <value>//form[@id='unit_form']/div/div/input</value>
+      <webElementGuid>af235ec8-62b7-42e1-9dbd-fdaeebb3497b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,14 +101,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>367a5a79-01fc-4e09-bc32-a81bba9c00c6</webElementGuid>
+      <webElementGuid>b11ab3fb-ad97-4b49-be33-a91f43dc4523</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @name = 'category_name' and @id = 'category_name' and @placeholder = 'Category Name']</value>
-      <webElementGuid>276fe672-ade5-4be9-8a9b-70476679b749</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'unit_name' and @id = 'unit_name' and @placeholder = 'Unit Name']</value>
+      <webElementGuid>07a22159-c183-4b84-b293-5e29a43556d8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

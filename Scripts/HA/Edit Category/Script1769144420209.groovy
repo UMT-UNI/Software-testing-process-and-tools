@@ -23,11 +23,11 @@ WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Produc
 
 WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Category List'))
 
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Manage Category/a_Active_btn btn-info btn-sm'))
+WebUI.click(findTestObject('Object Repository/TC Product/Page_Manage Category/a_viewCategoryId'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Login/input__category_name'), 'Edit Category')
 
-WebUI.click(findTestObject('TC Product/Page_Category_id/button_Update'))
+WebUI.click(findTestObject('TC Product/Page_Category_id/btn_Update'))
 
 WebUI.closeBrowser()
 

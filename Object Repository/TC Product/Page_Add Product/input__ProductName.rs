@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__category_name</name>
+   <name>input__ProductName</name>
    <tag></tag>
-   <elementGuidId>005b801f-9f90-4d03-9a15-eb17aabe389c</elementGuidId>
+   <elementGuidId>2f6ef8cb-01ce-45f7-8633-f77a4ddb595f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#category_name</value>
+         <value>#product_name</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='category_name']</value>
+         <value>//input[@id='product_name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Category Name&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Product Name&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,23 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3bb5ae44-5c49-4cb2-aa57-ddf3161ec74f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>908b0ea0-42d3-4e0f-a0c0-6bba20a70888</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>category_name</value>
-      <webElementGuid>50d6fc41-f094-4ad7-8e7b-063536a3e43a</webElementGuid>
+      <webElementGuid>3d9da857-8021-4d91-98f1-b88146aa7357</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,70 +37,94 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>f749c684-4af2-4f5e-aa25-349f38b25ae6</webElementGuid>
+      <webElementGuid>19f77df6-7206-4e3d-8c5c-0c6e1656eeeb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>product_name</value>
+      <webElementGuid>3c3fca8c-ad55-44c3-9af1-bca79066d719</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>f981b2f5-2419-40f9-a86f-ee6c29470fcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>category_name</value>
-      <webElementGuid>9a23ae29-07d6-43e7-8933-348c45d20bc9</webElementGuid>
+      <value>product_name</value>
+      <webElementGuid>be04cf24-11d0-41a7-9b30-3abb24c0235b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Category Name</value>
-      <webElementGuid>ade299bd-33e6-4b75-b505-fab17320fe50</webElementGuid>
+      <value>Product Name</value>
+      <webElementGuid>6ce47e5c-6deb-4018-baaa-73dfecceb7e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>Crockeries</value>
-      <webElementGuid>eb2524a9-9446-490d-aff9-6e15fca94f1a</webElementGuid>
+      <value>1</value>
+      <webElementGuid>3d291e57-dc77-4435-8121-9af66e890ec1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>32c815d4-7f47-4b0b-8d93-f872da897693</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;category_name&quot;)</value>
-      <webElementGuid>2ec5bec5-0018-41a8-a25b-f9f9183ca3a4</webElementGuid>
+      <value>id(&quot;product_name&quot;)</value>
+      <webElementGuid>70748477-5a05-42c8-94fc-f3b295e056c7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='category_name']</value>
-      <webElementGuid>ca5f5eeb-f25a-45a5-87b3-344afff0ba87</webElementGuid>
+      <value>//input[@id='product_name']</value>
+      <webElementGuid>12e44dec-9e71-45a9-9b27-c0c96cab39aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='category_form']/div/div/input</value>
-      <webElementGuid>4c7f0103-1597-417f-8bf5-5452f765e31a</webElementGuid>
+      <value>//form[@id='insert_product']/div/div[2]/div/div/div/input</value>
+      <webElementGuid>b2a7f5fa-b0bd-47e1-8d4b-a73c25d9561c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/input</value>
-      <webElementGuid>3d814828-ba98-46ff-b07d-b16b97acbc0d</webElementGuid>
+      <value>//div[2]/div/div/div/input</value>
+      <webElementGuid>8c0577cb-5c08-45b4-993c-a4fd8075aa7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @name = 'category_name' and @id = 'category_name' and @placeholder = 'Category Name']</value>
-      <webElementGuid>8c34f9f1-3fc1-47d7-b699-b421cd8084d5</webElementGuid>
+      <value>//input[@name = 'product_name' and @type = 'text' and @id = 'product_name' and @placeholder = 'Product Name']</value>
+      <webElementGuid>4848dbee-4ad5-4140-9d37-68ec710f97ed</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

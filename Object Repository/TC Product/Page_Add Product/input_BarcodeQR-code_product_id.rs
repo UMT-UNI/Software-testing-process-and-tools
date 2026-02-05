@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_BarcodeQR-code_product_id</name>
+   <name>input_BarcodeQR-code_Product_id</name>
    <tag></tag>
    <elementGuidId>75a21ebf-bb49-47d0-aef6-857498139f96</elementGuidId>
    <selectorCollection>

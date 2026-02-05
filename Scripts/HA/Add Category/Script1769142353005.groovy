@@ -23,9 +23,9 @@ WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Produc
 
 WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Add Category'))
 
-WebUI.setText(findTestObject('Object Repository/TC Product/Page_Add Category/input__category_name'), 'New Product')
+WebUI.setText(findTestObject('Object Repository/TC Product/Page_Add Category/input__CategoryName'), 'New Product')
 
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Category/button_Save'))
+WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Category/btn_Save'))
 
 WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode'))
 
