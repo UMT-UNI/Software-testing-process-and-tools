@@ -4,4 +4,32 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>URL Website Test</description>
+      <initValue>'https://saleserpdemo.bdtask-demo.com/v10_demo/'</initValue>
+      <name>url</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>5</initValue>
+      <name>waitPresentTimeout</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin@gmail.com'</initValue>
+      <name>username</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456'</initValue>
+      <name>password</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
