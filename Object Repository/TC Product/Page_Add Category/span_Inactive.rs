@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Active</name>
+   <name>span_Inactive</name>
    <tag></tag>
-   <elementGuidId>ee0033b7-7288-4287-a583-43ac7869c185</elementGuidId>
+   <elementGuidId>829ca90a-513e-4f0d-b562-7b90bf03b2ee</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -18,7 +18,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;×Active&quot;i</value>
+         <value>internal:text=&quot;×Inactive&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>0edca576-7817-4c30-901f-0847ae17d8c9</webElementGuid>
+      <webElementGuid>706db2b6-6ea7-47f1-9629-f3cc68da6759</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>select2-selection__rendered</value>
-      <webElementGuid>75572ae4-4433-4662-885d-309aad0c47f6</webElementGuid>
+      <webElementGuid>7c1851d1-c95e-4034-8b9e-f31e495abd6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,23 +45,23 @@
       <name>id</name>
       <type>Main</type>
       <value>select2-status-container</value>
-      <webElementGuid>9689b554-e97e-4671-954b-af4567d5c258</webElementGuid>
+      <webElementGuid>f3958433-516b-43ca-bdfe-edfbc0746641</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Active</value>
-      <webElementGuid>da6edd14-78eb-4d66-bc32-94875be532ff</webElementGuid>
+      <value>Inactive</value>
+      <webElementGuid>10a73e7a-ddd6-48a2-b8e0-a039d25c7b80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>×Active</value>
-      <webElementGuid>41ee767a-5111-4960-bb7c-790087e3d680</webElementGuid>
+      <value>×Inactive</value>
+      <webElementGuid>d96d7a93-1f9c-448c-ad2a-bad610ab51ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;select2-status-container&quot;)</value>
-      <webElementGuid>34a62e5a-8f26-447c-b821-93d7e649de04</webElementGuid>
+      <webElementGuid>67faccb8-1c63-4b43-8e25-7a3a834a4f81</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='select2-status-container']</value>
-      <webElementGuid>ce728045-473c-4ab3-8a67-7f8e18a24438</webElementGuid>
+      <webElementGuid>66fd41ad-1ae2-4da3-aefc-fdffa09feaec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='category_form']/div[2]/div/span/span/span/span</value>
-      <webElementGuid>ea05830d-8f03-4b11-a740-b3d0cb3682d8</webElementGuid>
+      <webElementGuid>22558349-c561-4a24-bf11-7391679620ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::span[4]</value>
-      <webElementGuid>e167742d-20da-464b-a7e4-ec6c632728d0</webElementGuid>
+      <webElementGuid>33dea0f4-c368-4780-b856-4d58f4d3e207</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::span[4]</value>
-      <webElementGuid>40b385d4-85a5-4962-8425-318eed0fed16</webElementGuid>
+      <webElementGuid>092b7338-a136-43ee-96ee-c3479884ef5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,14 +109,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/span/span/span</value>
-      <webElementGuid>72eb3952-fb54-4cb8-8cfb-1bec9489def0</webElementGuid>
+      <webElementGuid>82e9796b-6deb-4619-889b-9370c88d73cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[@id = 'select2-status-container' and @title = 'Active' and (text() = '×Active' or . = '×Active')]</value>
-      <webElementGuid>40fd39e5-1f9c-439b-bbb6-80486a0809d3</webElementGuid>
+      <value>//span[@id = 'select2-status-container' and @title = 'Inactive' and (text() = '×Inactive' or . = '×Inactive')]</value>
+      <webElementGuid>c8835e19-4df5-4afc-8adf-4d78dda28d9a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

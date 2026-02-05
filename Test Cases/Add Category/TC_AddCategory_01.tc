@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Add Category</name>
+   <name>TC_AddCategory_01</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

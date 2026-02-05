@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Active</name>
+   <name>button_Save</name>
    <tag></tag>
-   <elementGuidId>ee0033b7-7288-4287-a583-43ac7869c185</elementGuidId>
+   <elementGuidId>3f39f339-db24-4dfd-bb05-ff0f8a978476</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#select2-status-container</value>
+         <value>button.btn.btn-success</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='select2-status-container']</value>
+         <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;×Active&quot;i</value>
+         <value>internal:role=button[name=&quot;Save&quot;s]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,95 +28,98 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>0edca576-7817-4c30-901f-0847ae17d8c9</webElementGuid>
+      <value>button</value>
+      <webElementGuid>a451553c-0ced-4135-b937-42d7590d9171</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>2570fcb4-be90-4970-a938-c8ea2463db0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select2-selection__rendered</value>
-      <webElementGuid>75572ae4-4433-4662-885d-309aad0c47f6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>select2-status-container</value>
-      <webElementGuid>9689b554-e97e-4671-954b-af4567d5c258</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Active</value>
-      <webElementGuid>da6edd14-78eb-4d66-bc32-94875be532ff</webElementGuid>
+      <value>btn btn-success </value>
+      <webElementGuid>396b08f3-de1e-4f6c-a38b-97b977a5e922</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>×Active</value>
-      <webElementGuid>41ee767a-5111-4960-bb7c-790087e3d680</webElementGuid>
+      <value>
+                                                Save</value>
+      <webElementGuid>717c84f0-8aec-4743-b566-d4ccbd613633</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;select2-status-container&quot;)</value>
-      <webElementGuid>34a62e5a-8f26-447c-b821-93d7e649de04</webElementGuid>
+      <value>id(&quot;category_form&quot;)/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-sm-6 text-right&quot;]/button[@class=&quot;btn btn-success&quot;]</value>
+      <webElementGuid>04473654-c251-44a2-8a0c-3336b2421741</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//span[@id='select2-status-container']</value>
-      <webElementGuid>ce728045-473c-4ab3-8a67-7f8e18a24438</webElementGuid>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>5bd99622-5942-4fc8-a297-5c31873bcf68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='category_form']/div[2]/div/span/span/span/span</value>
-      <webElementGuid>ea05830d-8f03-4b11-a740-b3d0cb3682d8</webElementGuid>
+      <value>//form[@id='category_form']/div[3]/div/button</value>
+      <webElementGuid>74e86efc-8357-4ab6-99f8-163b93ed9910</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::span[4]</value>
-      <webElementGuid>e167742d-20da-464b-a7e4-ec6c632728d0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::button[1]</value>
+      <webElementGuid>0a4d8eaa-3f72-4974-a0ea-905cacd7802f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::span[4]</value>
-      <webElementGuid>40b385d4-85a5-4962-8425-318eed0fed16</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save And Add Another'])[1]/preceding::button[1]</value>
+      <webElementGuid>b72f1dc9-bb7c-4aa3-957f-bfa37ec7b905</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
+      <webElementGuid>af0cc543-9a6a-458b-b807-265bd4f0dc5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/span/span/span</value>
-      <webElementGuid>72eb3952-fb54-4cb8-8cfb-1bec9489def0</webElementGuid>
+      <value>//button</value>
+      <webElementGuid>a99e228c-07bf-4e63-a1db-fa1588f0a404</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[@id = 'select2-status-container' and @title = 'Active' and (text() = '×Active' or . = '×Active')]</value>
-      <webElementGuid>40fd39e5-1f9c-439b-bbb6-80486a0809d3</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = '
+                                                Save' or . = '
+                                                Save')]</value>
+      <webElementGuid>44f212d3-b87e-4764-b7ae-b638163eee07</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

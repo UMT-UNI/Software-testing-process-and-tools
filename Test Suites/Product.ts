@@ -15,14 +15,14 @@
       <guid>9a96f222-d030-4bae-9271-7646a4b084ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/HA/Login Successful</testCaseId>
+      <testCaseId>Test Cases/Login Successful</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7b0efa16-da21-43fe-8681-e261d41b9e84</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/HA/Add Category</testCaseId>
+      <testCaseId>Test Cases/Add Category/TC_AddCategory_01</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
