@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_005_EditUnit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>37cf4b83-f6c5-42f2-85fc-e2b506ab0db9</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e7738f5d-8dbb-4bdf-8768-5d2c8dfb217e</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/DD_EditUnit</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>e7738f5d-8dbb-4bdf-8768-5d2c8dfb217e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>unitName</value>
+      <variableId>5de18e27-9fc0-429e-b4eb-74b5808bb497</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e7738f5d-8dbb-4bdf-8768-5d2c8dfb217e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>status</value>
+      <variableId>87308e7c-edb9-4878-8b45-cc7f9f099e30</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e7738f5d-8dbb-4bdf-8768-5d2c8dfb217e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expectedResult</value>
+      <variableId>c722bd13-2b0a-401b-a8b7-db1f8e66820d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5de18e27-9fc0-429e-b4eb-74b5808bb497</id>
+      <masked>false</masked>
+      <name>unitName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>87308e7c-edb9-4878-8b45-cc7f9f099e30</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c722bd13-2b0a-401b-a8b7-db1f8e66820d</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>

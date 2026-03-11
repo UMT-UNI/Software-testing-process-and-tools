@@ -18,23 +18,28 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'pack.Login.loginToWebsiteGlobalVariable'()
-CustomKeywords.'pack.Unit.AddUnitDirect'()
+CustomKeywords.'pack.Unit.UnitListDirect'()
 
-WebUI.setText(findTestObject('TC Product/Page_Add Unit/input__UnitName'), unitName)
 
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Unit/btn_Save'))
+WebUI.click(findTestObject('Object Repository/TC Product/Page_Manage Unit/a_editBtn'))
+
+
+WebUI.setText(findTestObject('Object Repository/TC Product/Page_Unit_id/input__UnitName'), unitName)
+
+
+WebUI.click(findTestObject('Object Repository/TC Product/Page_Unit_id/btn_Update'))
+
 
 if (expectedResult == 'success') {
-    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Unit/div_You Are In Demo Mode'), 
-        0)
+	WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Unit/div_You Are In Demo Mode'),
+		0)
 
-    WebUI.comment('Success with ' + unitName)
+	WebUI.comment('Success with ' + unitName)
 } else {
-    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Unit/div_You Are In Demo Mode'), 
-        0)
+	WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Unit/div_You Are In Demo Mode'),
+		0)
 
-    WebUI.comment('Fail like expected with ' + unitName)
+	WebUI.comment('Fail like expected with ' + unitName)
 }
 
 WebUI.closeBrowser()
-
