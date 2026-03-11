@@ -19,11 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'pack.Login.loginToWebsiteGlobalVariable'()
 
-CustomKeywords.'pack.Category.AddCategoryDirect'()
+CustomKeywords.'pack.Category.CategoryListDirect'()
 
-WebUI.setText(findTestObject('Object Repository/TC Product/Page_Add Category/input__CategoryName'), categoryName)
+WebUI.click(findTestObject('TC Product/Page_Manage Category/a_viewCategoryId'))
 
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Category/btn_Save'))
+WebUI.click(findTestObject('TC Product/Page_Category_id/btn_Update'))
+
+WebUI.setText(findTestObject('TC Product/Page_Category_id/input__CategoryName'), categoryName)
 
 if (expectedResult == 'success') {
     WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode'), 0)
@@ -34,7 +36,6 @@ if (expectedResult == 'success') {
 	
 	WebUI.comment("Fail like expected with ", categoryName)
 }
-
 
 WebUI.closeBrowser()
 

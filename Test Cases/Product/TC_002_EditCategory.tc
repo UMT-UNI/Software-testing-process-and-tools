@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_002_EditCategory</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bb259f4a-c5c5-434f-a2c0-dbaa806f5d4e</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>9be837b6-09c0-465d-972d-d5f23f6ba445</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/DD_EditCategory</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>9be837b6-09c0-465d-972d-d5f23f6ba445</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>categoryName</value>
+      <variableId>c8202868-0daf-4de6-8114-6f1ad0ee8c1e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>9be837b6-09c0-465d-972d-d5f23f6ba445</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>status</value>
+      <variableId>44a56913-2f5c-4b6e-a508-4e4de02235ac</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>9be837b6-09c0-465d-972d-d5f23f6ba445</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expectedResult</value>
+      <variableId>8d88b098-1048-497b-a36b-756ca4dbfec7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8202868-0daf-4de6-8114-6f1ad0ee8c1e</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>44a56913-2f5c-4b6e-a508-4e4de02235ac</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8d88b098-1048-497b-a36b-756ca4dbfec7</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>

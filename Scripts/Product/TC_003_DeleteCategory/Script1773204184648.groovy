@@ -17,24 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'pack.Login.loginToWebsiteGlobalVariable'()
-
-CustomKeywords.'pack.Category.AddCategoryDirect'()
-
-WebUI.setText(findTestObject('Object Repository/TC Product/Page_Add Category/input__CategoryName'), categoryName)
-
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Category/btn_Save'))
-
-if (expectedResult == 'success') {
-    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode'), 0)
-	
-	WebUI.comment("Success with ", categoryName)
-} else {
-    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode'), 0)
-	
-	WebUI.comment("Fail like expected with ", categoryName)
-}
-
-
-WebUI.closeBrowser()
-

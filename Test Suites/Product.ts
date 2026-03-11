@@ -19,13 +19,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7b0efa16-da21-43fe-8681-e261d41b9e84</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Add Category/TC_AddCategory_01</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>11af32f0-81b3-4754-a3b0-52ec7859faca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
