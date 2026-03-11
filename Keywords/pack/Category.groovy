@@ -9,14 +9,14 @@ import internal.GlobalVariable
 public class Category {
 	@Keyword
 	def static void AddCategoryDirect() {
-		WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Product'))
+		WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/toggle_Product'))
 
 		WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Add Category'))
 	}
 	
 	@Keyword
 	def static void CategoryListDirect() {
-		WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Product'))
+		WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/toggle_Product'))
 		
 		WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Category List'))
 	}

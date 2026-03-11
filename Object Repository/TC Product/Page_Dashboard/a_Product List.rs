@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Manage Product</name>
+   <name>a_Product List</name>
    <tag></tag>
    <elementGuidId>8b6db2d5-5592-457e-9d4e-5aeb3e32e23e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li:nth-of-type(7) > a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Manage Product')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(7) > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
