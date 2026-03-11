@@ -6,12 +6,12 @@
    <elementGuidId>5900e565-c766-4b91-a59b-6456f39a7371</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.toast.toast-error</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='toast-container']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.toast.toast-error</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

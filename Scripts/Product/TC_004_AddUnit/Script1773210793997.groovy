@@ -19,22 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'pack.Login.loginToWebsiteGlobalVariable'()
 
-CustomKeywords.'pack.Category.AddCategoryDirect'()
+CustomKeywords.'pack.Unit.AddUnitDirect'()
 
-WebUI.setText(findTestObject('Object Repository/TC Product/Page_Add Category/input__CategoryName'), categoryName)
+WebUI.setText(findTestObject('TC Product/Page_Add Unit/input__UnitName'), unitName)
 
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Category/btn_Save'))
+WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Unit/btn_Save'))
 
 if (expectedResult == 'success') {
-    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode'), 0)
-	
-	WebUI.comment("Success with " + categoryName)
-} else {
-    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode'), 0)
-	
-	WebUI.comment("Fail like expected with " + categoryName)
-}
+    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Unit/div_You Are In Demo Mode'), 
+        0)
 
+    WebUI.comment('Success with ' + unitName)
+} else {
+    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Unit/div_You Are In Demo Mode'), 
+        0)
+
+    WebUI.comment('Fail like expected with ' + unitName)
+}
 
 WebUI.closeBrowser()
 

@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_003_DeleteCategory</name>
+   <name>TC_004_AddUnit</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>3447d55a-8694-4ca0-9469-a24c47113bf7</testCaseGuid>
+   <testCaseGuid>2d842e8a-4f65-43cd-b130-f7ffc9bcb39a</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>0225930c-84ca-4cf3-a65d-8abe8a333874</id>
+      <id>06534f60-0a53-4bb9-b111-2e2da3c673d9</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/DD_DelCategory</testDataId>
+      <testDataId>Data Files/DD_AddUnit</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>0225930c-84ca-4cf3-a65d-8abe8a333874</testDataLinkId>
+      <testDataLinkId>06534f60-0a53-4bb9-b111-2e2da3c673d9</testDataLinkId>
       <type>DATA_COLUMN</type>
-      <value>categoryName</value>
-      <variableId>990424df-7c21-4e68-9939-b333e20dfd98</variableId>
+      <value>unitName</value>
+      <variableId>f477fdcb-de3f-412c-989e-8b0dcdde49bb</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>0225930c-84ca-4cf3-a65d-8abe8a333874</testDataLinkId>
+      <testDataLinkId>06534f60-0a53-4bb9-b111-2e2da3c673d9</testDataLinkId>
       <type>DATA_COLUMN</type>
-      <value>box</value>
-      <variableId>b048bfec-48ed-401d-a7bf-fbecfc4f5f91</variableId>
+      <value>status</value>
+      <variableId>d7e39170-d311-4730-8ba5-913226e11583</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>0225930c-84ca-4cf3-a65d-8abe8a333874</testDataLinkId>
+      <testDataLinkId>06534f60-0a53-4bb9-b111-2e2da3c673d9</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>expectedResult</value>
-      <variableId>480c2ff8-c8c6-4b83-ab5e-344e985e999e</variableId>
+      <variableId>423d9823-93c5-4b22-b84a-10563ee5b8f5</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>990424df-7c21-4e68-9939-b333e20dfd98</id>
+      <id>f477fdcb-de3f-412c-989e-8b0dcdde49bb</id>
       <masked>false</masked>
-      <name>categoryName</name>
+      <name>unitName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>b048bfec-48ed-401d-a7bf-fbecfc4f5f91</id>
+      <id>d7e39170-d311-4730-8ba5-913226e11583</id>
       <masked>false</masked>
-      <name>box</name>
+      <name>status</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>480c2ff8-c8c6-4b83-ab5e-344e985e999e</id>
+      <id>423d9823-93c5-4b22-b84a-10563ee5b8f5</id>
       <masked>false</masked>
       <name>expectedResult</name>
    </variable>

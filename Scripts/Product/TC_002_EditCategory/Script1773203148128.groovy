@@ -30,11 +30,11 @@ WebUI.setText(findTestObject('TC Product/Page_Category_id/input__CategoryName'),
 if (expectedResult == 'success') {
     WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode'), 0)
 	
-	WebUI.comment("Success with ", categoryName)
+	WebUI.comment("Success with " + categoryName)
 } else {
     WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode'), 0)
 	
-	WebUI.comment("Fail like expected with ", categoryName)
+	WebUI.comment("Fail like expected with " + categoryName)
 }
 
 WebUI.closeBrowser()
