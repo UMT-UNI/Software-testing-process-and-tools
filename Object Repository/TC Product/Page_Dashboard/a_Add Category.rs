@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2203a85e-be07-47d1-a00d-2187a4d5a34e</webElementGuid>
+      <webElementGuid>ce86336f-ae70-4279-b49e-780155c4f636</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://saleserpdemo.bdtask-demo.com/v10_demo/category_form</value>
-      <webElementGuid>947694ed-5df2-486f-981b-9a77c1ecffea</webElementGuid>
+      <webElementGuid>b224e953-3804-4160-9b49-99ec0e2bc76b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <type>Main</type>
       <value> Add Category
                     </value>
-      <webElementGuid>2946d523-e5d4-480f-be8d-6c39b6228363</webElementGuid>
+      <webElementGuid>9b3089b6-ecd6-459f-b29b-c986affbfcf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;sidebar-mini  pace-done&quot;]/div[@class=&quot;wrapper&quot;]/aside[@class=&quot;main-sidebar&quot;]/div[@class=&quot;sidebar&quot;]/ul[@class=&quot;sidebar-menu&quot;]/li[@class=&quot;treeview active&quot;]/ul[@class=&quot;treeview-menu menu-open&quot;]/li[1]/a[1]</value>
-      <webElementGuid>f959c328-171b-437e-aa57-3d5d4ab6bb38</webElementGuid>
+      <webElementGuid>a8f4a181-4fbb-478a-aff8-1fe4786999e7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Add Category')]</value>
-      <webElementGuid>ddcb1a40-769e-474e-92a1-f130facad58e</webElementGuid>
+      <webElementGuid>9ec644c5-d7fd-48f6-bd71-4f92f5a9b820</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Product'])[1]/following::a[1]</value>
-      <webElementGuid>1a05e45e-8dd0-465b-8f54-6881fb771537</webElementGuid>
+      <webElementGuid>66b94c85-ec66-4dc5-8d9c-dfa7dfa636b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Supplier List'])[1]/following::a[2]</value>
-      <webElementGuid>cb2a8b22-5d66-412f-a3c2-03590a901cfd</webElementGuid>
+      <webElementGuid>a8a9c520-05a4-4c95-9b41-030afc1e7eeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Category List'])[1]/preceding::a[1]</value>
-      <webElementGuid>4bad2520-c431-42dc-b994-836bc6404f93</webElementGuid>
+      <webElementGuid>4eb714d9-b28c-41d6-9f48-9d99c3883422</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Unit'])[1]/preceding::a[2]</value>
-      <webElementGuid>533c8637-d248-475d-a65f-52de9327f7da</webElementGuid>
+      <webElementGuid>bc542e00-b9ff-4713-b094-dc85338cc830</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Add Category']/parent::*</value>
-      <webElementGuid>d4289f98-f632-4b69-ac7c-651f40974878</webElementGuid>
+      <webElementGuid>314f4129-3bad-4763-a39f-85917bf74bb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://saleserpdemo.bdtask-demo.com/v10_demo/category_form')]</value>
-      <webElementGuid>1b799550-62f7-4262-9892-3f21ac80eb19</webElementGuid>
+      <webElementGuid>001ddcb9-6b5a-4c6d-b442-3791ba9d55f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[5]/ul/li/a</value>
-      <webElementGuid>3e3a67cf-e70a-481a-bda3-55b977d5c602</webElementGuid>
+      <webElementGuid>e73bdeac-2514-4883-bccf-2c226edb76ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,6 +128,6 @@
       <value>//a[@href = 'https://saleserpdemo.bdtask-demo.com/v10_demo/category_form' and (text() = ' Add Category
                     ' or . = ' Add Category
                     ')]</value>
-      <webElementGuid>90523a05-788d-45ad-8369-2283b2312f6e</webElementGuid>
+      <webElementGuid>9cff8be5-8c86-464b-9325-b80c55c5381d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

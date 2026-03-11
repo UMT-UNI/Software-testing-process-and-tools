@@ -6,12 +6,12 @@
    <elementGuidId>2a1b7955-0736-47c6-ad77-e07ac1f92634</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Supplier List'])[1]/following::a[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Supplier List'])[1]/following::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e106a842-977c-488e-b2cb-a97f5298e7fb</webElementGuid>
+      <webElementGuid>e1cca15a-6011-4e10-91ea-f99685dd9136</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0)</value>
-      <webElementGuid>7ea60f3e-f276-48c1-95cd-c21d8e6be7e7</webElementGuid>
+      <webElementGuid>cc3a48c2-47bc-490c-bc48-9359256c67ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
                     
                 
             </value>
-      <webElementGuid>6531b655-2d8e-4729-aa73-09a60390676e</webElementGuid>
+      <webElementGuid>00ca72c1-dfa1-48fb-97cb-8ad646ed31a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;sidebar-mini  pace-done&quot;]/div[@class=&quot;wrapper&quot;]/aside[@class=&quot;main-sidebar&quot;]/div[@class=&quot;sidebar&quot;]/ul[@class=&quot;sidebar-menu&quot;]/li[@class=&quot;treeview&quot;]/a[1]</value>
-      <webElementGuid>e8b6220b-4785-4811-a2b2-984954cddfd5</webElementGuid>
+      <webElementGuid>bc371b1b-0136-4219-ba6d-b6a6f85e1eed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Supplier List'])[1]/following::a[1]</value>
-      <webElementGuid>c536db67-a8a3-4b5b-a497-316153a48677</webElementGuid>
+      <webElementGuid>1fcabe78-361b-4d5d-bf0d-7473bef6a171</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Supplier'])[1]/following::a[2]</value>
-      <webElementGuid>e3295163-539f-4018-ba91-f76f7449f3ca</webElementGuid>
+      <webElementGuid>f783d4aa-b453-4c25-91a2-37a69d3cee75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Category'])[1]/preceding::a[1]</value>
-      <webElementGuid>f9944fb4-5a7a-4fb0-b835-880bbb4cc416</webElementGuid>
+      <webElementGuid>5049273e-920c-41d8-b12f-983291e6a4d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void(0)')])[3]</value>
-      <webElementGuid>64668f5a-1ef9-4526-8159-231c98e9ef6d</webElementGuid>
+      <webElementGuid>a883741a-21f2-4c20-bff6-11fadad4ed4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[5]/a</value>
-      <webElementGuid>86daab64-b577-4798-97f7-fa62368dc768</webElementGuid>
+      <webElementGuid>3fd70050-2e15-472e-8036-67d9f0b10a90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
                     
                 
             ')]</value>
-      <webElementGuid>75b1317f-2019-4b96-bd1b-b80cfdb4bce1</webElementGuid>
+      <webElementGuid>a43c999b-f5a2-41b8-8030-078572f086d8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

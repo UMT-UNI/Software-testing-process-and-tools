@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('Object Repository/TC Product/Page_Add Category/inp
 
 WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Category/span_Active'))
 
-WebUI.selectOptionByValue(findTestObject('null'), 'Inactive', true)
+WebUI.getText(findTestObject('TC Product/Page_Add Category/span_Inactive'))
 
 WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Category/button_Save'))
 
