@@ -17,3 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'pack.Login.loginToWebsiteGlobalVariable'()
+CustomKeywords.'pack.Category.CategoryListDirect'()
+
+WebUI.click(findTestObject('TC Product/Page_Manage Category/a_deleteBtn'))
+
+
+if(box == "cancel") {
+	WebUI.dismissAlert()
+} else {
+	WebUI.acceptAlert()
+}
+
+
+if (expectedResult == 'success') {
+    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode'), 0)
+	
+	WebUI.comment("Successful")
+} else {
+    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode'), 0)
+	
+	WebUI.comment("Fail like expected")
+}
+
+WebUI.closeBrowser()
