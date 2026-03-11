@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_001_AddCategory</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de4f8d6d-4053-4952-a2c3-f14d9201b1c8</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>9dd011de-effc-46d8-981b-ccd001686abc</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/DD_AddCategory</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>9dd011de-effc-46d8-981b-ccd001686abc</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>categoryName</value>
+      <variableId>4a886b30-c2b3-4934-bea6-eed77b2512f4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>9dd011de-effc-46d8-981b-ccd001686abc</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>status</value>
+      <variableId>d51ecaa0-3a53-4d24-b3cd-ffbb9ee9f596</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>9dd011de-effc-46d8-981b-ccd001686abc</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expectedResult</value>
+      <variableId>ba60d6f5-deb1-497e-b9b7-57d12b742a58</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4a886b30-c2b3-4934-bea6-eed77b2512f4</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d51ecaa0-3a53-4d24-b3cd-ffbb9ee9f596</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ba60d6f5-deb1-497e-b9b7-57d12b742a58</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>

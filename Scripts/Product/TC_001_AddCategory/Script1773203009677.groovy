@@ -21,11 +21,16 @@ CustomKeywords.'pack.Login.loginToWebsiteGlobalVariable'()
 
 CustomKeywords.'pack.Category.AddCategoryDirect'()
 
-WebUI.setText(findTestObject('Object Repository/TC Product/Page_Add Category/input__CategoryName'), 'Bánh kẹo')
+WebUI.setText(findTestObject('Object Repository/TC Product/Page_Add Category/input__CategoryName'), categoryName)
 
 WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Category/btn_Save'))
 
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode'))
+if(expectedResult == "success") {
+	WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode'))
+} else {
+	WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode'))
+}
+
 
 WebUI.closeBrowser()
 
