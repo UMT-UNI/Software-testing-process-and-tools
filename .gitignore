@@ -1,6 +1,27 @@
+<<<<<<< HEAD
 /bin/
 /Libs/
 /.settings/
 /.classpath
 .svn/
 .cache/
+=======
+.gradle
+
+bin
+
+Reports
+
+Libs
+
+output
+
+!output/.gitkeep
+build
+
+.classpath
+
+.project
+
+.cache
+>>>>>>> branch 'nqtruong' of https://github.com/UMT-UNI/Software-testing-process-and-tools.git
