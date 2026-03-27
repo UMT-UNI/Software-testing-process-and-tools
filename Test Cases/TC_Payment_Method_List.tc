@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_Payment_Method_List</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>1d3e4425-0c57-4b4f-82f7-da624a3dc55c</testCaseGuid>
-</TestCaseEntity>
