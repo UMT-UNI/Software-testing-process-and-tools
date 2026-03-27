@@ -98,6 +98,7 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1774574362363</id>
 			<name></name>
 			<type>10</type>
@@ -108,6 +109,18 @@
 		</filter>
 		<filter>
 			<id>1774574362370</id>
+=======
+			<id>1774575432463</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1774575432474</id>
+>>>>>>> branch 'main' of https://github.com/UMT-UNI/Software-testing-process-and-tools.git
 			<name></name>
 			<type>6</type>
 			<matcher>
