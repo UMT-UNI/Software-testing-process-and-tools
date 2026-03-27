@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Manage_Quotation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2370ee96-7d0a-494b-97fa-3a7dd4274b5b</testCaseGuid>
+</TestCaseEntity>
