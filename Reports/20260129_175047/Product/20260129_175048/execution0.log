@@ -3864,3 +3864,29 @@ Add Unit.run(Add Unit:36)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+<record>
+  <date>2026-03-30T02:54:12.260020300Z</date>
+  <millis>1774839252260</millis>
+  <nanos>20300</nanos>
+  <sequence>11108</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1478</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-30T04:48:11.378761500Z</date>
+  <millis>1774846091378</millis>
+  <nanos>761500</nanos>
+  <sequence>12780</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1898</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
