@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Data_Salerp_Huy.csv</name>
+   <name>Data_Supplier_Full</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
-   <dataFileGUID>6e43f086-6392-4e4c-a167-e4b1ddf68405</dataFileGUID>
-   <dataSourceUrl>E:\Data_Login.csv</dataSourceUrl>
+   <dataFileGUID>f6745010-f2e8-4d0a-a257-d88c99b6d08c</dataFileGUID>
+   <dataSourceUrl>E:\Data_Supplier_Full.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

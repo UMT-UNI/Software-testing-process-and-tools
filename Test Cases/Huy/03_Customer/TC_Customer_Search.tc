@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Customer_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>282ff5ba-a813-4963-ad87-050bbe65d5e4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e35be9f-23ff-40a5-b115-4031b89e8462</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>741a10dc-e8fa-4550-9ed5-dd6b90214323</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9e35be9f-23ff-40a5-b115-4031b89e8462</id>
+      <masked>false</masked>
+      <name>vSearchKey</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>741a10dc-e8fa-4550-9ed5-dd6b90214323</id>
+      <masked>false</masked>
+      <name>vExpected</name>
+   </variable>
+</TestCaseEntity>
