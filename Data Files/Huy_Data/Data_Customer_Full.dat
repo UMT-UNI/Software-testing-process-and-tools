@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Data_ForgotPass_Huy.csv</name>
+   <name>Data_Customer_Full</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
-   <dataFileGUID>1f4d0149-e409-41ba-80ad-5477db04fcea</dataFileGUID>
-   <dataSourceUrl>E:\Data_ForgotPass_Huy.csv</dataSourceUrl>
+   <dataFileGUID>4d3493b8-94a7-46b0-a630-bab585b21be9</dataFileGUID>
+   <dataSourceUrl>E:\Data_Customer_Full.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

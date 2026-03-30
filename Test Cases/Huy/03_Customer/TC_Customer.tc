@@ -90,12 +90,6 @@
       <value></value>
       <variableId>12782ddf-c991-4782-bb18-b2f8f1ea3285</variableId>
    </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ce5715fb-5b06-4a2a-9d9f-68d62f3255e7</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>

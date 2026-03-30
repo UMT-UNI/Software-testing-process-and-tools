@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Sales</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>0a65ed41-ea61-4a6b-84c6-4988b3efef8e</testSuiteGuid>
+   <testCaseLink>
+      <guid>92567d63-1b21-4428-ab5b-7d4b46ee1fab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Huy/02_Sale/TC_Sales</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>56de5ede-7134-4926-a364-7b5b86de59e5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Huy_Data/Data_Sales_Full</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>56de5ede-7134-4926-a364-7b5b86de59e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vId</value>
+         <variableId>109877e9-a6ad-40b8-ab6a-4caf025696ed</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>56de5ede-7134-4926-a364-7b5b86de59e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vCustomer</value>
+         <variableId>84f235d1-4148-4e92-bd18-0a48c0ba8726</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>56de5ede-7134-4926-a364-7b5b86de59e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vProduct</value>
+         <variableId>08cc19b6-72f5-4bc5-b618-b4ded6f4ae42</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>56de5ede-7134-4926-a364-7b5b86de59e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vQty</value>
+         <variableId>b2c053e4-88a5-4841-b650-143ff1264d47</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>56de5ede-7134-4926-a364-7b5b86de59e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vExpected</value>
+         <variableId>4079465d-1cb6-47d7-bf4d-e90e7a92b0a9</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
