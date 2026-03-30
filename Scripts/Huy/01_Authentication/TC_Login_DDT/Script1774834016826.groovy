@@ -20,4 +20,4 @@ if (vExpected.contains('Dashboard')) {
     WebUI.verifyTextPresent(vExpected, false, FailureHandling.OPTIONAL)
 }
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
