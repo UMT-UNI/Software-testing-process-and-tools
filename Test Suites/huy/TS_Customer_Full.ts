@@ -111,4 +111,32 @@
          <variableId>12782ddf-c991-4782-bb18-b2f8f1ea3285</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>1f731581-39a1-4bc5-a90b-19be7469d90f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Huy/03_Customer/TC_Customer_Search</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>07e21972-7345-470a-9239-8afcea7a086a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Huy_Data/Data_SearchCustomer</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>07e21972-7345-470a-9239-8afcea7a086a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vSearchKey</value>
+         <variableId>9e35be9f-23ff-40a5-b115-4031b89e8462</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>07e21972-7345-470a-9239-8afcea7a086a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vExpected</value>
+         <variableId>741a10dc-e8fa-4550-9ed5-dd6b90214323</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
