@@ -19,6 +19,16 @@
       "proposedLocatorMethod": "CSS",
       "recoveryMethod": "CSS",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/TC Login/Page_/input_Password_password_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC Product/Page_Add Product/span_Select Supplier",
+      "brokenLocator": "//span[@id\u003d\u0027select2-supplier_id-er-container\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form[@id\u003d\u0027insert_product\u0027]/div/div[5]/div[3]/div/div/span/span/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC Product/Page_Add Product/span_Select Supplier_idRelative.png"
     }
   ]
 }

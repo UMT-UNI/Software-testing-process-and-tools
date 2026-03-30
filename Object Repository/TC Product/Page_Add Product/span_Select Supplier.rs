@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Select option</name>
+   <name>span_Select Supplier</name>
    <tag></tag>
-   <elementGuidId>8cc56fc9-cf00-4f74-be31-5ac07e64377a</elementGuidId>
+   <elementGuidId>cc37de58-959d-4a5f-acce-daf149ca2448</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#select2-category_id-container</value>
+         <value>#select2-supplier_id-er-container</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='select2-category_id-container']</value>
+         <value>//span[@id='select2-supplier_id-er-container']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#select2-category_id-container</value>
+         <value>#select2-supplier_id-er-container</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>ec4043a3-480f-4478-a78f-af445404586d</webElementGuid>
+      <webElementGuid>4a174ff3-dca2-474f-b2b4-268f268367aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +37,15 @@
       <name>class</name>
       <type>Main</type>
       <value>select2-selection__rendered</value>
-      <webElementGuid>da78df5b-3851-49e8-ab49-b28095e5062c</webElementGuid>
+      <webElementGuid>151c9adc-cf37-4a70-8256-9075876b5bd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>select2-category_id-container</value>
-      <webElementGuid>f9684c6b-3c72-4166-86a2-d0079e92bda5</webElementGuid>
+      <value>select2-supplier_id-er-container</value>
+      <webElementGuid>119bf308-43e6-441c-ab3a-6ad59cdc898d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,62 +53,54 @@
       <name>text</name>
       <type>Main</type>
       <value>Select option</value>
-      <webElementGuid>94153488-855f-4101-9ad3-1f61a64ad473</webElementGuid>
+      <webElementGuid>92f8fb31-9ef1-497b-9791-ea18999d7f9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;select2-category_id-container&quot;)</value>
-      <webElementGuid>56dad2c5-deb7-4596-a873-0a202e2113d4</webElementGuid>
+      <value>id(&quot;select2-supplier_id-er-container&quot;)</value>
+      <webElementGuid>bf9906f3-1a03-401f-a782-30c7c6531e2b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//span[@id='select2-category_id-container']</value>
-      <webElementGuid>7ebebd94-3b94-4c3d-a1f7-fbb563a228fe</webElementGuid>
+      <value>//span[@id='select2-supplier_id-er-container']</value>
+      <webElementGuid>dc109396-b8c7-41e7-b833-9231cbe860bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='insert_product']/div/div[3]/div/div/div/span/span/span/span</value>
-      <webElementGuid>bd5e2961-1ca0-4292-8c8f-5f3f40b001f7</webElementGuid>
+      <value>//form[@id='insert_product']/div/div[5]/div[3]/div/div/span/span/span/span</value>
+      <webElementGuid>b08e609f-836d-4e8b-80c5-4e0beddbfbaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::span[4]</value>
-      <webElementGuid>445def5a-9607-41e7-9707-bd17667f81f2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Model'])[1]/preceding::span[4]</value>
-      <webElementGuid>dfeb0ef1-a10b-4565-bd5a-8325a94a6cb6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::span[4]</value>
+      <webElementGuid>b4c65fed-2b75-4394-9885-e1821c7784ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/span/span/span</value>
-      <webElementGuid>5d950682-9e9e-4c75-a445-1b908fadd654</webElementGuid>
+      <value>//div[3]/div/div/span/span/span/span</value>
+      <webElementGuid>5d57b17a-91cf-4dc5-8526-c909ff09874c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[@id = 'select2-category_id-container' and (text() = 'Select option' or . = 'Select option')]</value>
-      <webElementGuid>f629b927-e8bc-49e6-b8f3-245a9adb48bc</webElementGuid>
+      <value>//span[@id = 'select2-supplier_id-er-container' and (text() = 'Select option' or . = 'Select option')]</value>
+      <webElementGuid>33651107-bc54-4351-bf61-c1a644e87001</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
