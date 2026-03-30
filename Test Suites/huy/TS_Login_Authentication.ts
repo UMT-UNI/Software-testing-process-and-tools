@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Login_Authentication</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>99249eee-a4db-4f8d-ac3f-27d85b79515d</testSuiteGuid>
+   <testCaseLink>
+      <guid>15d87253-bed0-45d7-9501-bd4414d88f53</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Huy/01_Authentication/TC_08_ForgotPassword</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>34850192-8cd9-417c-a5e9-0fa72dd71d23</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Huy_Data/Data_ForgotPass_Huy.csv</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>34850192-8cd9-417c-a5e9-0fa72dd71d23</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>46dcf4a6-9ed2-4366-afa2-00f3f619e89d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>34850192-8cd9-417c-a5e9-0fa72dd71d23</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Expected</value>
+         <variableId>8815fe49-2279-453c-9f83-36466b379106</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2a7caa1f-4f9e-424f-94ad-86d8bccbadb2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Huy/01_Authentication/TC_Login_DDT</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8dff70b0-7bf0-414a-b0bd-deed8de0fd98</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Huy_Data/Data_Salerp_Huy.csv</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>8dff70b0-7bf0-414a-b0bd-deed8de0fd98</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>59167269-3633-403d-b609-7fc5d731b923</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8dff70b0-7bf0-414a-b0bd-deed8de0fd98</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>e7bb5eb0-67ad-4c5f-b6ff-b199caa1e7df</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8dff70b0-7bf0-414a-b0bd-deed8de0fd98</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Expected</value>
+         <variableId>11774cb9-3cc8-45cd-964c-bff4cc893f00</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
