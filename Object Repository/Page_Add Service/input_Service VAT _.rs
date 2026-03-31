@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password</name>
+   <name>input_Service VAT _</name>
    <tag></tag>
-   <elementGuidId>a4f33965-dd82-4a3f-8aab-e4ad67332751</elementGuidId>
+   <elementGuidId>a79e3bb3-ba67-4254-94eb-e9a4604b6799</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'password' and @title = 'Please enter your password' and @placeholder = 'Password' and @name = 'password' and @id = 'password']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#password</value>
+         <value>#service_vat</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id = 'password']</value>
+         <value>//*[@id = 'service_vat']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,47 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>25fb2347-1b11-488d-be87-e433b012831f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>b1ca4011-9633-4985-85f7-135e66d8208e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Please enter your password</value>
-      <webElementGuid>82a5cb95-5682-4a66-83ed-c39e8f16fb23</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>a5427ad8-3727-4015-92b0-65bf49a001f9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>6328955a-69e1-4fb7-9e15-29df4ef90979</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>84a43b4e-0b46-432c-8799-fc32b5e8ce87</webElementGuid>
+      <webElementGuid>d77c3d0f-ac67-4975-a44d-c40c10c9e0f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,38 +31,70 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>bf2d5d10-978f-4ee6-8552-5c91fe1220a0</webElementGuid>
+      <webElementGuid>3e381ff1-98e9-44e7-bd3b-2f3e88e76a17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>service_vat</value>
+      <webElementGuid>d0d24c3f-f689-4d23-8438-f2a258e4c31f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>service_vat</value>
+      <webElementGuid>8150ad57-aa7e-499f-8aa4-57ab29e8c023</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>617f5170-f75e-4ea7-bd87-0adb24a8cefb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Service VAT %</value>
+      <webElementGuid>2760e441-ddc4-4805-96b3-7a99050e2aa1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-9e9af563cb0d5d92f852b4749a4d17cd</value>
-      <webElementGuid>fc02298f-2674-4314-9e1f-cd5ee5ee45c1</webElementGuid>
+      <value>md5.v1-4b91412b36853923221a5499c0af5156</value>
+      <webElementGuid>5f7b7458-2dd6-44d3-994b-42542a61007d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id = 'password']</value>
-      <webElementGuid>b43519b5-9fcd-4299-83dc-e56afb5c5dce</webElementGuid>
+      <value>//*[@id = 'service_vat']</value>
+      <webElementGuid>708bc296-3d74-4013-8c8a-215453a7af28</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@id = 'password']</value>
-      <webElementGuid>5fd21472-e113-4ea1-92df-8ab8cd7b064e</webElementGuid>
+      <value>//*[@id = 'service_vat']</value>
+      <webElementGuid>c62b8e0e-08f1-446e-afcb-aa821ddcb74b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @title = 'Please enter your password' and @placeholder = 'Password' and @name = 'password' and @id = 'password']</value>
-      <webElementGuid>25562b7b-692c-47fd-be86-04f47819ecdf</webElementGuid>
+      <value>//input[@name = 'service_vat' and @id = 'service_vat' and @type = 'text' and @placeholder = 'Service VAT %']</value>
+      <webElementGuid>f071f3bf-6768-4caa-8d00-cdbad2adb788</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Service</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>9fce3f05-58e2-4e9d-82c4-f0c9287eba7f</testSuiteGuid>
+   <testCaseLink>
+      <guid>7ee27fb1-69fa-4bcc-8cbd-395c6e89c98e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Service/add svice</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e70368d1-db7b-4753-b183-914e7b865ee4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DD_Sevice (1)</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e70368d1-db7b-4753-b183-914e7b865ee4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>﻿ServiceName</value>
+         <variableId>472849e5-9bcf-4709-a20a-d7a73bf35930</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e70368d1-db7b-4753-b183-914e7b865ee4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Charge</value>
+         <variableId>7c105fbb-a817-4934-8666-3e4581398488</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e70368d1-db7b-4753-b183-914e7b865ee4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ServiceVAT</value>
+         <variableId>46968eb4-a194-4a36-b4de-3c128531986a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e70368d1-db7b-4753-b183-914e7b865ee4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Description</value>
+         <variableId>0b56de85-e691-4019-ba1d-5d9cee8dd031</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

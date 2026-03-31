@@ -29,21 +29,17 @@ WebUI.setEncryptedText(findTestObject('Page_/input_Password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Page_/button_Login'))
 
-WebUI.click(findTestObject('Page_Dashboard/a_Bank'))
+WebUI.click(findTestObject('Page_Dashboard/span_pull-right-container'))
 
-WebUI.click(findTestObject('Page_Dashboard/a_Add New Bank'))
+WebUI.click(findTestObject('Page_Dashboard/a_Add Payment Method'))
 
-WebUI.setText(findTestObject('Page_Add New Bank/input_Bank Name'), varBankName)
+WebUI.setText(findTestObject('Page_Add Payment Method/input_Payment Method Name'), varName)
 
-WebUI.setText(findTestObject('Page_Add New Bank/input_A_C Name'), varAccName)
+WebUI.click(findTestObject('Page_Add Payment Method/input_add-deposit'))
 
-WebUI.setText(findTestObject('Page_Add New Bank/input_A_C Number'), varAccNumber)
+// Verify page Add Payment Method
+WebUI.verifyTextPresent('Payment Method', false)
 
-WebUI.setText(findTestObject('Page_Add New Bank/input_Branch'), varBranch)
-
-WebUI.click(findTestObject('Page_Add New Bank/input_add-deposit'))
-
-WebUI.verifyElementPresent(findTestObject('Page_Add New Bank/input_Signature Picture_add-deposit'), 10)
-
+// Close Browser
 WebUI.closeBrowser()
 

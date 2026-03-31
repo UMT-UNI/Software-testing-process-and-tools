@@ -1,0 +1,5 @@
+﻿ServiceName,Charge,ServiceVAT,Description,ExpectedStatus
+Sửa chữa tận nơi,150000,10,Bảo trì máy tính tại nhà,Success
+Vệ sinh thiết bị,50000,8,Vệ sinh bụi bẩn,Success
+,100000,5,(Test bỏ trống tên),Fail
+Kiểm tra lỗi,Miễn phí,0,(Test giá bằng chữ),Fail

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_add_payment</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7fd60bed-27ff-485a-b635-7cf16644126c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7648d37c-4613-4809-98f3-75a2fdb3f6d4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7648d37c-4613-4809-98f3-75a2fdb3f6d4</id>
+      <masked>false</masked>
+      <name>varName</name>
+   </variable>
+</TestCaseEntity>

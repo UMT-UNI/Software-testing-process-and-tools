@@ -6,4 +6,43 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>d49385ce-fe90-4e21-bc20-c723ab78623e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>011bf481-7f49-449e-a440-ea29e54a12cd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>099bf224-95e1-409d-9074-d2353a07561f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a0c1e1db-e5cf-45e7-9cad-c5157608d3f7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>011bf481-7f49-449e-a440-ea29e54a12cd</id>
+      <masked>false</masked>
+      <name>varPaymentName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>099bf224-95e1-409d-9074-d2353a07561f</id>
+      <masked>false</masked>
+      <name>varDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a0c1e1db-e5cf-45e7-9cad-c5157608d3f7</id>
+      <masked>false</masked>
+      <name>varExpected</name>
+   </variable>
 </TestCaseEntity>

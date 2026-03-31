@@ -6,12 +6,16 @@
    <elementGuidId>5b9e8563-a2ef-470a-bcb4-1a03e1fba416</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://saleserpdemo.bdtask-demo.com/v10_demo/add_payment_method' and (text() = 'Add Payment Method' or . = 'Add Payment Method')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
+         <value>.treeview:nth-child(8) > .treeview-menu > .treeview:nth-child(11) a</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Add Payment Method')]</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' treeview ') and (position() = 8)]/*[@class and contains(concat(' ', normalize-space(@class), ' '), ' treeview-menu ')]/*[@class and contains(concat(' ', normalize-space(@class), ' '), ' treeview ') and (position() = 11)]//a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>16f9deca-4ab3-470f-92cc-1d395181e37b</webElementGuid>
+      <webElementGuid>4b425791-e334-4d63-bcc6-80c04e412f0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +35,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://saleserpdemo.bdtask-demo.com/v10_demo/add_payment_method</value>
-      <webElementGuid>7ce8e7d7-6e3d-4d4e-a2f2-4115fc71e7da</webElementGuid>
+      <webElementGuid>dffa5e25-2bf3-45c7-b8d9-6b3bcbc0f0c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,16 +43,40 @@
       <name>text</name>
       <type>Main</type>
       <value>Add Payment Method</value>
-      <webElementGuid>1d8613b1-5c6f-4907-8ca2-2eabd296e89a</webElementGuid>
+      <webElementGuid>bbaf88fe-f0e5-4973-8a6d-fdac975a3466</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;sidebar-mini  pace-done&quot;]/div[@class=&quot;wrapper&quot;]/aside[@class=&quot;main-sidebar&quot;]/div[@class=&quot;sidebar&quot;]/ul[@class=&quot;sidebar-menu&quot;]/li[@class=&quot;treeview active&quot;]/ul[@class=&quot;treeview-menu menu-open&quot;]/li[@class=&quot;treeview&quot;]/a[1]</value>
-      <webElementGuid>a98d6232-1116-456c-b89b-c5370c76cf36</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' treeview ') and (position() = 8)]/*[@class and contains(concat(' ', normalize-space(@class), ' '), ' treeview-menu ')]/*[@class and contains(concat(' ', normalize-space(@class), ' '), ' treeview ') and (position() = 11)]//a</value>
+      <webElementGuid>f2a9d6e6-6aad-4216-998c-bffa0d21d905</webElementGuid>
    </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-2dec5d341b47d55bc3787ca0a4b7220a</value>
+      <webElementGuid>ddbddb99-42b2-42c6-bc78-0a82910ea724</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' treeview ') and (position() = 8)]/*[@class and contains(concat(' ', normalize-space(@class), ' '), ' treeview-menu ')]/*[@class and contains(concat(' ', normalize-space(@class), ' '), ' treeview ') and (position() = 11)]//a</value>
+      <webElementGuid>12929785-7035-4773-9613-6f012d52fae1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://saleserpdemo.bdtask-demo.com/v10_demo/add_payment_method' and (text() = 'Add Payment Method' or . = 'Add Payment Method')]</value>
+      <webElementGuid>6ddbe90b-66c6-4a9c-b1f7-fabc915c49ce</webElementGuid>
+   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -112,13 +140,5 @@
       <type>Main</type>
       <value>//li[8]/ul/li[11]/a</value>
       <webElementGuid>81a5ac5b-d714-451e-b696-03b77eaaf345</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@href = 'https://saleserpdemo.bdtask-demo.com/v10_demo/add_payment_method' and (text() = 'Add Payment Method' or . = 'Add Payment Method')]</value>
-      <webElementGuid>6d2f6b0d-9dd8-4239-a681-96d6ba4a6fb2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

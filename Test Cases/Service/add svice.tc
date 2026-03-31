@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Add_New_Bank</name>
+   <name>add svice</name>
    <tag></tag>
    <comment></comment>
    <origin>WEB_RECORDER</origin>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>b1e46acd-2895-4471-ab45-25b85e7806bd</testCaseGuid>
+   <testCaseGuid>330171a9-484c-4b72-94ea-5b8301fbf94b</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>96bbf30f-997a-4925-ba56-96d877fafad7</variableId>
+      <variableId>472849e5-9bcf-4709-a20a-d7a73bf35930</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1525332f-47d2-4832-9b13-71b374459b0c</variableId>
+      <variableId>7c105fbb-a817-4934-8666-3e4581398488</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>90bfcf99-036e-4572-a113-3e75e259fdfe</variableId>
+      <variableId>46968eb4-a194-4a36-b4de-3c128531986a</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>16f44350-153c-4470-9c32-fae04e290779</variableId>
+      <variableId>0b56de85-e691-4019-ba1d-5d9cee8dd031</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>96bbf30f-997a-4925-ba56-96d877fafad7</id>
+      <id>472849e5-9bcf-4709-a20a-d7a73bf35930</id>
       <masked>false</masked>
-      <name>varBankName</name>
+      <name>varServiceName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>1525332f-47d2-4832-9b13-71b374459b0c</id>
+      <id>7c105fbb-a817-4934-8666-3e4581398488</id>
       <masked>false</masked>
-      <name>varAccName</name>
+      <name>varCharge</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>90bfcf99-036e-4572-a113-3e75e259fdfe</id>
+      <id>46968eb4-a194-4a36-b4de-3c128531986a</id>
       <masked>false</masked>
-      <name>varAccNumber</name>
+      <name>varServiceVAT</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>16f44350-153c-4470-9c32-fae04e290779</id>
+      <id>0b56de85-e691-4019-ba1d-5d9cee8dd031</id>
       <masked>false</masked>
-      <name>varBranch</name>
+      <name>varDescription</name>
    </variable>
 </TestCaseEntity>

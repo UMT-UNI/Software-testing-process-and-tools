@@ -10,6 +10,10 @@
          <value>#add-service</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @id = 'add-service' and @name = 'add-service']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@id = 'add-service']</value>
       </entry>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d2a71a7d-3bc4-49c1-a0d9-0dd61c267217</webElementGuid>
+      <webElementGuid>f6c3c6f6-85c7-4da7-a058-7f8e654df4c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>f0f8629a-febe-4ed6-9370-38df2d4c4e63</webElementGuid>
+      <webElementGuid>fa252d24-9133-430c-83c2-a2c3818e0d12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +43,7 @@
       <name>id</name>
       <type>Main</type>
       <value>add-service</value>
-      <webElementGuid>85542e8b-444b-4fd8-bf39-93b8b7a79d90</webElementGuid>
+      <webElementGuid>d93a7af4-a253-435d-9aba-3f1c5032f2c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +51,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-success btn-large</value>
-      <webElementGuid>626ad51d-250e-4e4d-9ce4-b6b5fa529692</webElementGuid>
+      <webElementGuid>07a6cee4-5fe5-47cc-9d8f-96d7ae43ce91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +59,7 @@
       <name>name</name>
       <type>Main</type>
       <value>add-service</value>
-      <webElementGuid>f15da3ca-835e-49f9-ae63-d1576f1045b5</webElementGuid>
+      <webElementGuid>748c1e81-ebe5-466c-a7aa-d90346a09c1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +67,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>842989cd-d586-4841-be8d-4349bc5b6ce6</webElementGuid>
+      <webElementGuid>a79027f7-db10-4010-8ec8-e5b8edf54a08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-003befbbb59ff741c6881f48e5773d2b</value>
-      <webElementGuid>2150ff46-9809-46b7-8509-c576a49604cb</webElementGuid>
+      <webElementGuid>e24edf0c-adaa-4d6b-8580-11c43d647ab6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'add-service']</value>
-      <webElementGuid>208943d7-66b4-4eb9-8ed0-3cdeee995134</webElementGuid>
+      <webElementGuid>114e88a5-e74b-4fc5-bd06-b5598897b756</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'add-service']</value>
-      <webElementGuid>d52fccc8-569a-4a2f-b12e-5c86da2c6f26</webElementGuid>
+      <webElementGuid>11205220-45b6-48b8-96d6-bf7aa9bf7490</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit' and @id = 'add-service' and @name = 'add-service']</value>
-      <webElementGuid>e1a6d9e5-d014-4988-ae8b-4083bf069f71</webElementGuid>
+      <webElementGuid>3c2e371b-4df4-4a69-8f83-6f676f1e80db</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
