@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_010_StockReport</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a9ce290-6796-4a1e-a217-60e7427dbbab</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>4aaa06e8-4af7-4620-ab62-0a0362865e8b</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/DD_Stock Report</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>4aaa06e8-4af7-4620-ab62-0a0362865e8b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>filetype</value>
+      <variableId>18444820-26c2-423c-83e7-e80be56c0a89</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>18444820-26c2-423c-83e7-e80be56c0a89</id>
+      <masked>false</masked>
+      <name>filetype</name>
+   </variable>
+</TestCaseEntity>
