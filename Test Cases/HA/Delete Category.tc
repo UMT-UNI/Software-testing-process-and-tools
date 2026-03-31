@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Delete Category</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>bb89357f-13c3-4efd-a0f1-79dbb7078267</testCaseGuid>
-</TestCaseEntity>
