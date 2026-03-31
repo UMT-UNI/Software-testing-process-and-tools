@@ -26,6 +26,11 @@ WebUI.click(findTestObject('Object Repository/TC Product/Page_Manage Unit/a_edit
 
 WebUI.setText(findTestObject('Object Repository/TC Product/Page_Unit_id/input__UnitName'), unitName)
 
+WebUI.click(findTestObject('TC Product/Page_Add Unit/span_Active'))
+
+WebUI.setText(findTestObject('TC Product/Page_Add Unit/input__Set Status'), status)
+
+WebUI.sendKeys(findTestObject('TC Product/Page_Add Unit/input__Set Status'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/TC Product/Page_Unit_id/btn_Update'))
 

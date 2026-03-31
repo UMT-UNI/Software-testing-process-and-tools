@@ -23,9 +23,16 @@ CustomKeywords.'pack.Category.CategoryListDirect'()
 
 WebUI.click(findTestObject('TC Product/Page_Manage Category/a_viewCategoryId'))
 
+WebUI.setText(findTestObject('TC Product/Page_Category_id/input__CategoryName'), categoryName)
+
+WebUI.click(findTestObject('TC Product/Page_Add Category/span_Active'))
+
+WebUI.setText(findTestObject('TC Product/Page_Add Category/input__Set Status'), status)
+
+WebUI.sendKeys(findTestObject('TC Product/Page_Add Category/input__Set Status'), Keys.chord(Keys.ENTER))
+
 WebUI.click(findTestObject('TC Product/Page_Category_id/btn_Update'))
 
-WebUI.setText(findTestObject('TC Product/Page_Category_id/input__CategoryName'), categoryName)
 
 if (expectedResult == 'success') {
     WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode'), 0)

@@ -18,20 +18,25 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'pack.Login.loginToWebsiteGlobalVariable'()
+
 CustomKeywords.'pack.Unit.AddUnitDirect'()
 
 WebUI.setText(findTestObject('TC Product/Page_Add Unit/input__UnitName'), unitName)
 
+WebUI.click(findTestObject('TC Product/Page_Add Unit/span_Active'))
+
+WebUI.setText(findTestObject('TC Product/Page_Add Unit/input__Set Status'), status)
+
+WebUI.sendKeys(findTestObject('TC Product/Page_Add Unit/input__Set Status'), Keys.chord(Keys.ENTER))
+
 WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Unit/btn_Save'))
 
 if (expectedResult == 'success') {
-    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Unit/div_You Are In Demo Mode'), 
-        0)
+    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Unit/div_You Are In Demo Mode'), 0)
 
     WebUI.comment('Success with ' + unitName)
 } else {
-    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Unit/div_You Are In Demo Mode'), 
-        0)
+    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Unit/div_You Are In Demo Mode'), 0)
 
     WebUI.comment('Fail like expected with ' + unitName)
 }
