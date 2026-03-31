@@ -1,0 +1,6 @@
+productName,categoryName,supplier,expectedResult
+Tai nghe Bluetooth A1,Chocolate,Supplier A,success
+,Chocolate,Supplier A,Product Name required
+Tai nghe Bluetooth A1,,Supplier A,Category required
+Tai nghe Bluetooth A1,Chocolate,,Supplier required
+Bàn phím K1,Accessories,Supplier B,fail

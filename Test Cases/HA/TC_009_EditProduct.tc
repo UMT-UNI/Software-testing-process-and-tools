@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_007_Add Product</name>
+   <name>TC_009_EditProduct</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>8d7cdd71-830f-4bae-8d33-e8492cdfa96c</testCaseGuid>
+   <testCaseGuid>b5d2e3dd-b4b2-4ede-9f7d-bc36aa158a5f</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
-      <type>DATA_COLUMN</type>
+      <type>DEFAULT</type>
       <value></value>
-      <variableId>8dfe9314-cfe9-447d-92e3-e59df4cbc3de</variableId>
+      <variableId>76cc9ab3-9a92-48ee-9a59-9920c0bd2026</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
-      <type>DATA_COLUMN</type>
+      <type>DEFAULT</type>
       <value></value>
-      <variableId>04925a49-164c-47fc-957a-ce388889777b</variableId>
+      <variableId>15a750f0-701f-48fe-8594-999906df6a46</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
-      <type>DATA_COLUMN</type>
+      <type>DEFAULT</type>
       <value></value>
-      <variableId>e1e9ebd1-3408-41eb-8ec9-413ca9fa9819</variableId>
+      <variableId>d0777152-563c-426d-aee3-5e1bcce604a0</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
-      <type>DATA_COLUMN</type>
+      <type>DEFAULT</type>
       <value></value>
-      <variableId>71117860-fad2-4ead-a8ec-b3dd450f2a09</variableId>
+      <variableId>ceb44027-8362-4a10-b1a1-90a71ce7437d</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Tai nghe Bluetooth A1'</defaultValue>
+      <defaultValue>'Power bank20000mAh'</defaultValue>
       <description></description>
-      <id>8dfe9314-cfe9-447d-92e3-e59df4cbc3de</id>
+      <id>76cc9ab3-9a92-48ee-9a59-9920c0bd2026</id>
       <masked>false</masked>
       <name>productName</name>
    </variable>
    <variable>
       <defaultValue>'Chocolate'</defaultValue>
       <description></description>
-      <id>04925a49-164c-47fc-957a-ce388889777b</id>
+      <id>15a750f0-701f-48fe-8594-999906df6a46</id>
       <masked>false</masked>
       <name>categoryName</name>
    </variable>
    <variable>
       <defaultValue>'Supplier A'</defaultValue>
       <description></description>
-      <id>e1e9ebd1-3408-41eb-8ec9-413ca9fa9819</id>
+      <id>d0777152-563c-426d-aee3-5e1bcce604a0</id>
       <masked>false</masked>
       <name>supplier</name>
    </variable>
    <variable>
       <defaultValue>'success'</defaultValue>
       <description></description>
-      <id>71117860-fad2-4ead-a8ec-b3dd450f2a09</id>
+      <id>ceb44027-8362-4a10-b1a1-90a71ce7437d</id>
       <masked>false</masked>
       <name>expectedResult</name>
    </variable>

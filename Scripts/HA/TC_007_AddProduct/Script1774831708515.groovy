@@ -38,15 +38,15 @@ WebUI.sendKeys(findTestObject('TC Product/Page_Add Product/input__Supplier'), Ke
 WebUI.click(findTestObject('TC Product/Page_Add Product/btn_Save'))
 
 if (expectedResult == 'success') {
-    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Product/div_You Are In Demo Mode'))
+    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Product/div_You Are In Demo Mode'), 5)
 } else if (expectedResult == 'Product Name required') {
-    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Product/lbl_Product Name required'))
+    WebUI.verifyElementPresent(findTestObject('TC Product/Page_Add Product/label_Product Name is required'), 5)
 } else if (expectedResult == 'Category required') {
-    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Product/lbl_Category required'))
+    WebUI.verifyElementPresent(findTestObject('TC Product/Page_Add Product/label_Category is required'), 5)
 } else if (expectedResult == 'Supplier required') {
-    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Product/lbl_Supplier required'))
+    WebUI.verifyElementPresent(findTestObject('TC Product/Page_Add Product/label_Supplier is required'), 5)
 } else {
-    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Product/div_You Are In Demo Mode'))
+    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Product/div_You Are In Demo Mode'), 5)
 }
 
 WebUI.closeBrowser()

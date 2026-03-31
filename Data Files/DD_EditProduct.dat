@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>DD_EditUnit</name>
+   <name>DD_EditProduct</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>6242b916-d81c-4619-bb61-9d1bd7763b07</dataFileGUID>
-   <dataSourceUrl>Data Files/HA_CSV/editUnit.csv</dataSourceUrl>
+   <dataSourceUrl>Data Files/HA_CSV/editProduct.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

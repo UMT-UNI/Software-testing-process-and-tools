@@ -1,0 +1,10 @@
+productName,categoryName,supplier,expectedResult
+Power bank,Electronics,Supplier A,success
+Power bank20000mAh,Electronics,Supplier A,success
+,Electronics,Supplier A,Product Name required
+Power bank,Travel,Supplier A,success
+Power bank,,Supplier A,Category required
+Power bank,Electronics,Supplier B,success
+Power bank,Electronics,,Supplier required
+Power bank,Electronics,Supplier A,success
+Power bank,Electronics,Supplier A,fail

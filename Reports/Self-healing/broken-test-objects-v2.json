@@ -29,6 +29,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/TC Product/Page_Add Product/span_Select Supplier_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC Product/Page_Edit Product/span_Select Supplier",
+      "brokenLocator": "//span[@id\u003d\u0027select2-supplier_id-wl-container\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form[@id\u003d\u0027insert_product\u0027]/div/div[4]/div[4]/div/div/span/span/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC Product/Page_Edit Product/span_Select Supplier_idRelative.png"
     }
   ]
 }

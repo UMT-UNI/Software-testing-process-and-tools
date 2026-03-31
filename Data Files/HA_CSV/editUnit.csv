@@ -1,0 +1,8 @@
+unitName,status,expectedResult
+PCS,Active,success
+Piece,Active,success
+PCS,Inactive,success
+,Active,fail
+"   ",Active,fail
+Kg,Active,fail
+PCS,Active,success

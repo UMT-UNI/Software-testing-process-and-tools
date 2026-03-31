@@ -1,0 +1,11 @@
+categoryName,status,expectedResult
+Crockeries,Active,success
+Crockeries Premium,Active,success
+Crockeries,Inactive,success
+,Active,fail
+"   ",Active,fail
+Thực phẩm – Hàng nhập khẩu,Active,success
+Q!F8^KgrcmC7WnQ@L4N9e9^zykG9hYo4a%EX^TVyJCKK@$qU4q5oyRQ!Kx@kDnB7PHVT!2Ynf$Dbf*mtf2w4kq2!o&mqUT3B#3C7pd&@vfLVJQ4C*#98t2P5kCnTPTEE,Active,fail
+Chocolate,Active,fail
+ Beverage ,Active,success
+Crockeries,Active,success
