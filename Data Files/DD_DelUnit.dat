@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>DD_AddCategory</name>
+   <name>DD_DelUnit</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
-   <dataFileGUID>24b8deb8-9060-48f7-98c5-66cca64c59fd</dataFileGUID>
-   <dataSourceUrl>D:\Test Process and Tools\SALERP - Project Nhóm\addCategory.csv</dataSourceUrl>
+   <dataFileGUID>f86c58e2-39d1-4669-9c6a-892ce93539f3</dataFileGUID>
+   <dataSourceUrl>D:\Test Process and Tools\SALERP - Project Nhóm\delUnit.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

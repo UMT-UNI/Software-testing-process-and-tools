@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_007_Add Product</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8d7cdd71-830f-4bae-8d33-e8492cdfa96c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value></value>
+      <variableId>8dfe9314-cfe9-447d-92e3-e59df4cbc3de</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value></value>
+      <variableId>04925a49-164c-47fc-957a-ce388889777b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value></value>
+      <variableId>e1e9ebd1-3408-41eb-8ec9-413ca9fa9819</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value></value>
+      <variableId>71117860-fad2-4ead-a8ec-b3dd450f2a09</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Tai nghe Bluetooth A1'</defaultValue>
+      <description></description>
+      <id>8dfe9314-cfe9-447d-92e3-e59df4cbc3de</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Chocolate'</defaultValue>
+      <description></description>
+      <id>04925a49-164c-47fc-957a-ce388889777b</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Supplier A'</defaultValue>
+      <description></description>
+      <id>e1e9ebd1-3408-41eb-8ec9-413ca9fa9819</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
+   <variable>
+      <defaultValue>'success'</defaultValue>
+      <description></description>
+      <id>71117860-fad2-4ead-a8ec-b3dd450f2a09</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>
