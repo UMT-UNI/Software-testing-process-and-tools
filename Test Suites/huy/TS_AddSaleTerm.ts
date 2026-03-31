@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_AddSaleTerm</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>04bbab5f-ec80-4518-ac98-53af1a50c4c4</testSuiteGuid>
+   <testCaseLink>
+      <guid>3316fa35-032a-44a6-a7d8-5825d07de2e3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Huy/02_Sale/TC_AddSalesTerms</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>818c6e2b-2dd4-4a8f-b649-57fe85834dc8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Huy_Data/Data_AddSalesTerms</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>818c6e2b-2dd4-4a8f-b649-57fe85834dc8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vId</value>
+         <variableId>5ec24e5d-41e7-4abd-97b9-b67188cac61c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>818c6e2b-2dd4-4a8f-b649-57fe85834dc8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vTermName</value>
+         <variableId>dc918ce6-4a5b-46ad-8d17-d8182f5df218</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>818c6e2b-2dd4-4a8f-b649-57fe85834dc8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vExpected</value>
+         <variableId>71fae2c8-4e61-4efa-9827-d33611e7a34d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

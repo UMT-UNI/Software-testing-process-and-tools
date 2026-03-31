@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_SaleTermsList</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>1066c739-38b4-4c01-8e3e-f19d5a64b23b</testSuiteGuid>
+   <testCaseLink>
+      <guid>8486e4b4-b783-4289-ae36-f748e26b11e0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Huy/02_Sale/TC_SaleTermsList</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>da483a2f-51e4-4a28-af88-af99d194f7cb</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Huy_Data/Data_SaleTermsList</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>da483a2f-51e4-4a28-af88-af99d194f7cb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vId</value>
+         <variableId>fa4fa70c-76f6-4792-8544-4955065afb61</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>da483a2f-51e4-4a28-af88-af99d194f7cb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vExpected</value>
+         <variableId>d46ebcf0-21ba-4da2-827a-97f99de5ab61</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

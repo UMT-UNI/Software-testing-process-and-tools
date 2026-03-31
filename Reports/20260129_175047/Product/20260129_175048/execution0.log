@@ -3835,9 +3835,8 @@ Add Unit.run(Add Unit:36)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2026-03-30T01:51:22.527837900Z</date>
   <millis>1774835482527</millis>
@@ -3955,3 +3954,4 @@ Add Unit.run(Add Unit:36)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+</log>

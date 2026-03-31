@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ManageSale</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8fbde3f6-b6e2-41d8-adb2-2df946cddd42</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cd509027-6ef7-4bce-92a9-9a1c3f5f96f5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c064b032-4bb8-4789-94db-c1e4b509788b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cd509027-6ef7-4bce-92a9-9a1c3f5f96f5</id>
+      <masked>false</masked>
+      <name>vId</name>
+   </variable>
+   <variable>
+      <defaultValue>'Manage Sale'</defaultValue>
+      <description></description>
+      <id>c064b032-4bb8-4789-94db-c1e4b509788b</id>
+      <masked>false</masked>
+      <name>vExpected</name>
+   </variable>
+</TestCaseEntity>

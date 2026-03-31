@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_SaleTermsList</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>69ae3631-16c6-46eb-ae86-b436233327d8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fa4fa70c-76f6-4792-8544-4955065afb61</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d46ebcf0-21ba-4da2-827a-97f99de5ab61</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fa4fa70c-76f6-4792-8544-4955065afb61</id>
+      <masked>false</masked>
+      <name>vId</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sale Terms List'</defaultValue>
+      <description></description>
+      <id>d46ebcf0-21ba-4da2-827a-97f99de5ab61</id>
+      <masked>false</masked>
+      <name>vExpected</name>
+   </variable>
+</TestCaseEntity>

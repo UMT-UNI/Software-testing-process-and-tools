@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_ManageSale</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>b866dcf0-ce3b-4d7e-acce-43f26b89643b</testSuiteGuid>
+   <testCaseLink>
+      <guid>9b290ec3-d452-40e7-8d4d-e25826cf17cd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Huy/02_Sale/TC_ManageSale</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>dd159712-a49d-49dd-94a0-574e6c878cf1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Huy_Data/Data_ManageSale</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>dd159712-a49d-49dd-94a0-574e6c878cf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vId</value>
+         <variableId>cd509027-6ef7-4bce-92a9-9a1c3f5f96f5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dd159712-a49d-49dd-94a0-574e6c878cf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vExpected</value>
+         <variableId>c064b032-4bb8-4789-94db-c1e4b509788b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
