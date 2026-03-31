@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_Product</name>
+   <name>TS_HA_All</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>8a32a761-2cb0-4230-935d-a4a77d606174</testSuiteGuid>
+   <testSuiteGuid>b5787e8e-167c-41cc-b3f6-0d003d7e4246</testSuiteGuid>
    <testCaseLink>
-      <guid>16c94eac-3fa7-4959-9f4d-f63b891e1edd</guid>
+      <guid>bcc70569-74a3-44b4-a7bd-607440327f30</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HA/TC_001_AddCategory</testCaseId>
@@ -37,7 +37,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>27afcc73-f8be-4c43-999d-c2d27f4bd756</guid>
+      <guid>81636cbd-f406-4331-9874-9ff5ee513c32</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HA/TC_002_EditCategory</testCaseId>
@@ -62,7 +62,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>352efe32-5470-4e78-8ef1-3985f0f612c2</guid>
+      <guid>6d795a5f-e496-4b55-b7d7-24655e6eb6cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HA/TC_003_DeleteCategory</testCaseId>
@@ -87,7 +87,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0df95e8a-3c67-4303-9e3e-8b2d5e5d9b1e</guid>
+      <guid>d07c108d-26f6-4ae9-86dc-d95b7c93465e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HA/TC_004_AddUnit</testCaseId>
@@ -112,7 +112,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5e4d2ff0-9824-47cb-a37a-6b2c8f5b3051</guid>
+      <guid>1581d6d6-0420-4cfc-ae66-890fa7af990e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HA/TC_005_EditUnit</testCaseId>
@@ -137,7 +137,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>46d0f976-a481-4652-82ef-61fc02dcfb71</guid>
+      <guid>6de7e77b-e11a-4503-80ee-167ba0103f38</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HA/TC_006_DeleteUnit</testCaseId>
@@ -162,7 +162,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>90edf1f3-fc67-4021-8a2d-ba616e62ee80</guid>
+      <guid>fabdd306-68a0-4771-be60-910ee3f89492</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HA/TC_007_AddProduct</testCaseId>
@@ -193,7 +193,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0e678d50-2379-46e9-a003-f0f1a6063d74</guid>
+      <guid>308a7228-ddc5-4843-b1a9-1de6e9e9d968</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HA/TC_008_EditProduct</testCaseId>
@@ -224,7 +224,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c2aaf113-a42a-4567-9eea-435419bb2b2d</guid>
+      <guid>e86b7430-bf5e-4840-ba1a-a128e576a697</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HA/TC_009_DeleteProduct</testCaseId>
@@ -246,6 +246,19 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>f329e59d-d9c6-41fe-9f6a-bae1b0dcca64</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c29b1a3a-fb1a-4b44-9439-e6c8ab6669af</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HA/TC_010_StockReport</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>18444820-26c2-423c-83e7-e80be56c0a89</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
