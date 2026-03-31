@@ -6,53 +6,62 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>b5d2e3dd-b4b2-4ede-9f7d-bc36aa158a5f</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>9cbd73dc-24db-4859-9107-134deeeb3329</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/DD_EditProduct</testDataId>
+   </testDataLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>9cbd73dc-24db-4859-9107-134deeeb3329</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>productName</value>
       <variableId>76cc9ab3-9a92-48ee-9a59-9920c0bd2026</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>9cbd73dc-24db-4859-9107-134deeeb3329</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>categoryName</value>
       <variableId>15a750f0-701f-48fe-8594-999906df6a46</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>9cbd73dc-24db-4859-9107-134deeeb3329</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>supplier</value>
       <variableId>d0777152-563c-426d-aee3-5e1bcce604a0</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>9cbd73dc-24db-4859-9107-134deeeb3329</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expectedResult</value>
       <variableId>ceb44027-8362-4a10-b1a1-90a71ce7437d</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Power bank20000mAh'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>76cc9ab3-9a92-48ee-9a59-9920c0bd2026</id>
       <masked>false</masked>
       <name>productName</name>
    </variable>
    <variable>
-      <defaultValue>'Chocolate'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>15a750f0-701f-48fe-8594-999906df6a46</id>
       <masked>false</masked>
       <name>categoryName</name>
    </variable>
    <variable>
-      <defaultValue>'Supplier A'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>d0777152-563c-426d-aee3-5e1bcce604a0</id>
       <masked>false</masked>
       <name>supplier</name>
    </variable>
    <variable>
-      <defaultValue>'success'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>ceb44027-8362-4a10-b1a1-90a71ce7437d</id>
       <masked>false</masked>

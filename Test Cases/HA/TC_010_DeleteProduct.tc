@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_010_DeleteProduct</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e20096a7-7631-4e5c-9055-96d1830222ff</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b93cc3a7-6978-4f2a-8249-bcadcaab71d6</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/DD_DelUnit</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>b93cc3a7-6978-4f2a-8249-bcadcaab71d6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>unitName</value>
+      <variableId>4899ea0b-525d-48ba-9cf4-a474cde703e0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>b93cc3a7-6978-4f2a-8249-bcadcaab71d6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>box</value>
+      <variableId>5be940b6-fa1b-4aa4-9bfb-0139eaec2aac</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>b93cc3a7-6978-4f2a-8249-bcadcaab71d6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expectedResult</value>
+      <variableId>f329e59d-d9c6-41fe-9f6a-bae1b0dcca64</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4899ea0b-525d-48ba-9cf4-a474cde703e0</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5be940b6-fa1b-4aa4-9bfb-0139eaec2aac</id>
+      <masked>false</masked>
+      <name>box</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f329e59d-d9c6-41fe-9f6a-bae1b0dcca64</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>

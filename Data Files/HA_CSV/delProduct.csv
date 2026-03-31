@@ -1,0 +1,3 @@
+productName,box,expectedResult
+Power bank,box,success
+Power bank,box,fail
