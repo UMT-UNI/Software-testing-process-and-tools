@@ -38,10 +38,20 @@ WebUI.setText(findTestObject('TC Product/Page_Edit Product/input__Supplier'), su
 WebUI.sendKeys(findTestObject('TC Product/Page_Edit Product/input__Supplier'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('TC Product/Page_Edit Product/btn_Save'))
+
 WebUI.click(findTestObject('TC Product/Page_Edit Product/btn_Save'))
 
 if (expectedResult == 'success') {
     WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Edit Product/div_You Are In Demo Mode'), 
+        5)
+} else if (expectedResult == 'Product Name required') {
+    WebUI.verifyElementPresent(findTestObject('TC Product/Page_Edit Product/label_Prodcut Name is required'), 5)
+} else if (expectedResult == 'Category required') {
+    WebUI.verifyElementPresent(findTestObject('TC Product/Page_Edit Product/lbl_Category required'), 5)
+} else if (expectedResult == 'Supplier required') {
+    WebUI.verifyElementPresent(findTestObject('TC Product/Page_Edit Product/lbl_Supplier required'), 5)
+} else {
+    WebUI.verifyElementPresent(findTestObject('Object Repository/TC Product/Page_Add Product/div_You Are In Demo Mode'), 
         5)
 }
 
