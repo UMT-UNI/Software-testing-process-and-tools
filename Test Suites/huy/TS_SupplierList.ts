@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_SupplierList</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>0c4e6723-ecf5-49d5-82e9-607032334780</testSuiteGuid>
+   <testCaseLink>
+      <guid>4bfdfd1a-8c4f-4213-9f82-a091fac58335</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Huy/04_Supplier/TC_SupplierList</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7af51faa-a54b-46bb-9abb-3659de45bd23</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Huy_Data/Data_SearchSupplier</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>7af51faa-a54b-46bb-9abb-3659de45bd23</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vId</value>
+         <variableId>2f1b93a9-3980-4702-aca4-d3f70369e572</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7af51faa-a54b-46bb-9abb-3659de45bd23</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vSearchKey</value>
+         <variableId>8ee9ac9b-bac8-4484-92a0-acea42eeedb3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7af51faa-a54b-46bb-9abb-3659de45bd23</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vExpected</value>
+         <variableId>0dbe8381-3d18-4289-a3e4-bb5ecb79e558</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
