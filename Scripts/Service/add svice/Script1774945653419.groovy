@@ -29,13 +29,17 @@ WebUI.setEncryptedText(findTestObject('Page_/input_Password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Page_/button_Login'))
 
-WebUI.click(findTestObject('Page_Dashboard/a_Service'))
+WebUI.click(findTestObject('Page_Dashboard/span_pull-right-container'))
 
 WebUI.click(findTestObject('Page_Dashboard/a_Add Service'))
 
-WebUI.setText(findTestObject('Page_Add Service/input_Service Name'), 'Test Service')
+WebUI.setText(findTestObject('Page_Add Service/input_Service Name'), varServiceName)
 
-WebUI.setText(findTestObject('Page_Add Service/input_Charge'), '100')
+WebUI.setText(findTestObject('Page_Add Service/input_Charge'), varCharge)
+
+WebUI.setText(findTestObject('Page_Add Service/input_Service VAT _'), varServiceVAT)
+
+WebUI.setText(findTestObject('Page_Add Service/textarea_Description'), varDescription)
 
 WebUI.click(findTestObject('Page_Add Service/input_add-service'))
 

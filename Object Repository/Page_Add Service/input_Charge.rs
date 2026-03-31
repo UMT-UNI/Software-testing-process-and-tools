@@ -10,6 +10,10 @@
          <value>#charge</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'charge' and @id = 'charge' and @type = 'text' and @placeholder = 'Charge']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@id = 'charge']</value>
       </entry>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2ee48939-800f-4831-be74-bb94e14ce533</webElementGuid>
+      <webElementGuid>bde3f039-0e5d-4027-83f1-5378007b0760</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>72c9a74c-0f06-43a5-8ab7-d7aff5ad9e23</webElementGuid>
+      <webElementGuid>96b68c4d-85e4-4c7b-aaa8-5d36ea0ec67c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +43,7 @@
       <name>name</name>
       <type>Main</type>
       <value>charge</value>
-      <webElementGuid>e7d762db-6890-4ed8-837c-1385826ffbb3</webElementGuid>
+      <webElementGuid>f735cdaa-1fe8-4295-9d73-2d3e40a3c64d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>id</name>
       <type>Main</type>
       <value>charge</value>
-      <webElementGuid>179ec0c5-93c7-4f7b-bec5-b2c5b914b855</webElementGuid>
+      <webElementGuid>c7d170c7-4cdf-497d-936f-dfc300458a96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +59,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>aebfb710-dcce-4cd3-8415-244e1a86de39</webElementGuid>
+      <webElementGuid>0254e7fa-9e18-415c-b0f9-59510a1c7e68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Charge</value>
-      <webElementGuid>01814e2d-d109-469c-9bbd-0cc7bb4f2d47</webElementGuid>
+      <webElementGuid>3f31f9de-20e3-477e-b873-7e97c7c243c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-299f3581dbd4099a29b1135c1b7dba28</value>
-      <webElementGuid>fcf3ab67-4167-4f44-82af-bccf624e38a8</webElementGuid>
+      <webElementGuid>9ff81f5f-8f84-4a22-a43b-117aaf218ef2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'charge']</value>
-      <webElementGuid>fa13d9c9-e4b1-4f71-a5c7-2a84209772c4</webElementGuid>
+      <webElementGuid>13951076-8cfd-4bef-a520-0459aceb6e58</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'charge']</value>
-      <webElementGuid>b5fa33e4-87fa-474c-92d9-278ad003fd8a</webElementGuid>
+      <webElementGuid>b3862921-2839-4711-8bd2-115fdc781799</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'charge' and @id = 'charge' and @type = 'text' and @placeholder = 'Charge']</value>
-      <webElementGuid>20030897-3880-4273-88e4-fbcbc07b78b1</webElementGuid>
+      <webElementGuid>f34f6ab7-c816-45e5-aab3-a5f47743ec18</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

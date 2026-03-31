@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>DD_AddCategory</name>
+   <name>DD_Accounts (1)</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
-   <dataFileGUID>24b8deb8-9060-48f7-98c5-66cca64c59fd</dataFileGUID>
-   <dataSourceUrl>D:\Test Process and Tools\SALERP - Project Nhóm\AddCategory.csv</dataSourceUrl>
+   <dataFileGUID>53a69525-4291-4e96-90e2-b45e3916fd6d</dataFileGUID>
+   <dataSourceUrl>Data Files/DD_payment_methods.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

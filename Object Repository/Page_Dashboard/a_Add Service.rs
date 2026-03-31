@@ -10,6 +10,10 @@
          <value>.treeview:nth-child(12) .treeview:nth-child(1) a</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://saleserpdemo.bdtask-demo.com/v10_demo/add_service' and (text() = 'Add Service' or . = 'Add Service')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' treeview ') and (position() = 12)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' treeview ') and (position() = 1)]//a</value>
       </entry>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>0766d21b-29d4-4915-9b81-6dbb46420db5</webElementGuid>
+      <webElementGuid>acedff7e-20b9-40e9-8b7d-0810eae1ac23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +35,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://saleserpdemo.bdtask-demo.com/v10_demo/add_service</value>
-      <webElementGuid>ff1ed677-e4a7-4472-bad4-4b2fa4102101</webElementGuid>
+      <webElementGuid>a161c6c3-c00d-4626-92fd-a2eda578cdda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add Service</value>
-      <webElementGuid>63f24b92-a309-4c51-a107-76102d1faa77</webElementGuid>
+      <webElementGuid>3f95a495-83d1-4b2f-a97d-1d17301029e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +51,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-33cd0ec2938fef693308b9a5e29b1c83</value>
-      <webElementGuid>c661cdb5-e12e-4e0b-a67c-e33bc22d328b</webElementGuid>
+      <webElementGuid>99eab22c-f12e-41a6-8b6f-bfad35579b80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' treeview ') and (position() = 12)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' treeview ') and (position() = 1)]//a</value>
-      <webElementGuid>dfc10890-9c17-4164-96d3-2771a32988ae</webElementGuid>
+      <webElementGuid>cfa99151-85ab-4ac8-a72e-28a6b705fb66</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' treeview ') and (position() = 12)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' treeview ') and (position() = 1)]//a</value>
-      <webElementGuid>2eedebc0-8b01-4a3c-a13d-bb3892fce15c</webElementGuid>
+      <webElementGuid>700337b5-6700-4ae9-bc60-7c234e8e07e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +75,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://saleserpdemo.bdtask-demo.com/v10_demo/add_service' and (text() = 'Add Service' or . = 'Add Service')]</value>
-      <webElementGuid>a6304c67-8db7-468e-9335-ae4bef20ec03</webElementGuid>
+      <webElementGuid>74814d73-b393-415d-b00e-443b4082112b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

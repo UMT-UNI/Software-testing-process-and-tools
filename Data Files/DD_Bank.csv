@@ -1,0 +1,4 @@
+﻿BankName,A/C Name,A/C Number,Branch,ExpectedStatus
+Vietcombank,Nguyen Dinh Truong,123456789,Bao Loc,Success
+ACB,Huy Tester,987654321,HCM,Success
+MB Bank,,111,Ha Noi,Fail

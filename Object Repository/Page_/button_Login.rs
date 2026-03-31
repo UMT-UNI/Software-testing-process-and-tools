@@ -6,16 +6,16 @@
    <elementGuidId>35546b4c-021e-4212-a149-784f9dd21460</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Login' or . = 'Login')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.btn-success.btn</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-success ') and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Login' or . = 'Login')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>11e0dcb2-a1e7-4eef-a84e-53b95c31d2fe</webElementGuid>
+      <webElementGuid>51c45d20-c1c5-4f2b-9d42-4d4da48bd356</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-success</value>
-      <webElementGuid>c4434f18-f180-40ca-a2aa-b9a929f7be93</webElementGuid>
+      <webElementGuid>bcfd7815-ec93-475f-a64c-75c08ed8ee97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Login</value>
-      <webElementGuid>e9c3caed-cbb1-4175-a773-9c608a04c36f</webElementGuid>
+      <webElementGuid>b1268ead-c30e-4121-99cf-080aeb943d77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-5d4c1235375f49ed349c50ad12eec051</value>
-      <webElementGuid>1307e879-a4de-43a6-bdf3-6119334d3959</webElementGuid>
+      <webElementGuid>e7f9d61a-d096-498f-87a9-4d5bd051e818</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-success ') and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>b40b198c-0e92-473e-92b0-1c1c4fd29f87</webElementGuid>
+      <webElementGuid>b4736763-91e9-4a14-b9f9-dfd6b6bb10fa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-success ') and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>7fb6c13f-e0a4-4cef-98aa-fa6868deeb2f</webElementGuid>
+      <webElementGuid>256de29d-f011-4937-94ac-a361ceccf231</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +75,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>7c894595-3b28-47d0-a1f5-43ff6642dc2a</webElementGuid>
+      <webElementGuid>03036d70-0192-415a-a9b2-9846b69de29a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

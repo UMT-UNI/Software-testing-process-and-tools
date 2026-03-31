@@ -37,3 +37,4 @@ WebUI.verifyTextPresent('Payment Method', false)
 
 // Close Browser
 WebUI.closeBrowser()
+

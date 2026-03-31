@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password</name>
+   <name>input_add-deposit</name>
    <tag></tag>
-   <elementGuidId>a4f33965-dd82-4a3f-8aab-e4ad67332751</elementGuidId>
+   <elementGuidId>dbe7860f-d29e-487a-a9ef-f4da40e7f2b5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'password' and @title = 'Please enter your password' and @placeholder = 'Password' and @name = 'password' and @id = 'password']</value>
+         <key>CSS</key>
+         <value>#add-deposit</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#password</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @id = 'add-deposit' and @name = 'add-deposit']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id = 'password']</value>
+         <value>//*[@id = 'add-deposit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,86 +27,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>25fb2347-1b11-488d-be87-e433b012831f</webElementGuid>
+      <webElementGuid>cbda72e2-8aa5-4329-9561-258a1f408189</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>b1ca4011-9633-4985-85f7-135e66d8208e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Please enter your password</value>
-      <webElementGuid>82a5cb95-5682-4a66-83ed-c39e8f16fb23</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>a5427ad8-3727-4015-92b0-65bf49a001f9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>6328955a-69e1-4fb7-9e15-29df4ef90979</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>b628777f-18a8-4334-a54f-f53d54234cb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>84a43b4e-0b46-432c-8799-fc32b5e8ce87</webElementGuid>
+      <value>add-deposit</value>
+      <webElementGuid>08d65bfe-d2dd-4637-8717-996deb07792c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>bf2d5d10-978f-4ee6-8552-5c91fe1220a0</webElementGuid>
+      <value>btn btn-success</value>
+      <webElementGuid>e58fa427-99d0-494b-8dd8-adff402575fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>add-deposit</value>
+      <webElementGuid>a5c260b9-e2a5-4024-985c-e9145144ebd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Save</value>
+      <webElementGuid>b6b0dc91-d612-40ec-a086-b72edd6df585</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>66c1d752-8af9-4022-bffe-0d491a33739a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-9e9af563cb0d5d92f852b4749a4d17cd</value>
-      <webElementGuid>fc02298f-2674-4314-9e1f-cd5ee5ee45c1</webElementGuid>
+      <value>md5.v1-256732abe9cd9c3277f4a8e94efcaa4f</value>
+      <webElementGuid>ba79fefb-b78a-409e-afa8-1f1503abc4bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id = 'password']</value>
-      <webElementGuid>b43519b5-9fcd-4299-83dc-e56afb5c5dce</webElementGuid>
+      <value>//*[@id = 'add-deposit']</value>
+      <webElementGuid>c35f6f19-3cb0-4d60-930a-f1cb20cf0f10</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@id = 'password']</value>
-      <webElementGuid>5fd21472-e113-4ea1-92df-8ab8cd7b064e</webElementGuid>
+      <value>//*[@id = 'add-deposit']</value>
+      <webElementGuid>001eade8-a5cd-459d-a38f-2e3b6e0dea5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @title = 'Please enter your password' and @placeholder = 'Password' and @name = 'password' and @id = 'password']</value>
-      <webElementGuid>25562b7b-692c-47fd-be86-04f47819ecdf</webElementGuid>
+      <value>//input[@type = 'submit' and @id = 'add-deposit' and @name = 'add-deposit']</value>
+      <webElementGuid>7bbbac29-e034-44cb-be48-76d5ca507497</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

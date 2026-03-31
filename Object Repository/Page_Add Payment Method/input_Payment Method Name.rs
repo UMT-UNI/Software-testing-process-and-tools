@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password</name>
+   <name>input_Payment Method Name</name>
    <tag></tag>
-   <elementGuidId>a4f33965-dd82-4a3f-8aab-e4ad67332751</elementGuidId>
+   <elementGuidId>4a17323e-fa78-4683-9269-d381da2ad820</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'password' and @title = 'Please enter your password' and @placeholder = 'Password' and @name = 'password' and @id = 'password']</value>
+         <key>CSS</key>
+         <value>#HeadName</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#password</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'HeadName' and @id = 'HeadName' and @placeholder = 'Payment Method Name']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id = 'password']</value>
+         <value>//*[@id = 'HeadName']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,47 +27,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>25fb2347-1b11-488d-be87-e433b012831f</webElementGuid>
+      <webElementGuid>1e1ef8ef-3012-45a3-bb91-f83681e65bfd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>b1ca4011-9633-4985-85f7-135e66d8208e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Please enter your password</value>
-      <webElementGuid>82a5cb95-5682-4a66-83ed-c39e8f16fb23</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>a5427ad8-3727-4015-92b0-65bf49a001f9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>6328955a-69e1-4fb7-9e15-29df4ef90979</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>84a43b4e-0b46-432c-8799-fc32b5e8ce87</webElementGuid>
+      <value>text</value>
+      <webElementGuid>1ce6b5f0-47ef-4d8a-921f-41400564bf2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,38 +43,78 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>bf2d5d10-978f-4ee6-8552-5c91fe1220a0</webElementGuid>
+      <webElementGuid>6fce19f0-3f52-45d0-bc2d-3cf62896c2ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>HeadName</value>
+      <webElementGuid>009610c3-d225-4ff9-b65b-ac9939777c93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>HeadName</value>
+      <webElementGuid>364de631-2bc8-4bcf-9f3c-c413cf5ad854</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Payment Method Name</value>
+      <webElementGuid>e052c3c3-69ea-4110-84ff-0b5a72077365</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>1fc39a3f-1d01-4851-b740-5a5c3093d6ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>5ce9ad68-afba-485a-b562-56da3dd4b00d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-9e9af563cb0d5d92f852b4749a4d17cd</value>
-      <webElementGuid>fc02298f-2674-4314-9e1f-cd5ee5ee45c1</webElementGuid>
+      <value>md5.v1-9bda8c695b212e8f531afb1e9ea747f1</value>
+      <webElementGuid>9e1204a5-bbf9-46b4-a36d-a444e25f35b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id = 'password']</value>
-      <webElementGuid>b43519b5-9fcd-4299-83dc-e56afb5c5dce</webElementGuid>
+      <value>//*[@id = 'HeadName']</value>
+      <webElementGuid>71c4d069-c346-403c-af8c-b45233727a0e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@id = 'password']</value>
-      <webElementGuid>5fd21472-e113-4ea1-92df-8ab8cd7b064e</webElementGuid>
+      <value>//*[@id = 'HeadName']</value>
+      <webElementGuid>7d587619-c508-4ec9-80a9-bf6ba8dbc1c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @title = 'Please enter your password' and @placeholder = 'Password' and @name = 'password' and @id = 'password']</value>
-      <webElementGuid>25562b7b-692c-47fd-be86-04f47819ecdf</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'HeadName' and @id = 'HeadName' and @placeholder = 'Payment Method Name']</value>
+      <webElementGuid>2cd0b760-b65d-4ea0-87b9-c5234abcc27c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
