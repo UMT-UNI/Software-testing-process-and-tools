@@ -7,9 +7,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>163800c8-2123-42a4-9dc8-93d114c652ad</dataFileGUID>
-   <dataSourceUrl>E:\Data_Sales_Full.csv</dataSourceUrl>
+   <dataSourceUrl>Data Files/Huy CSV/Data_Sales_Full.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>
