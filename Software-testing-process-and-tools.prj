@@ -6,16 +6,12 @@
    <UUID>5ba9124b-133e-4b0e-8ba4-f01eba34a013</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>10.4.3</createdVersion>
-   <freeLicense>true</freeLicense>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>11.0.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-<<<<<<< HEAD
    <projectFileLocation>D:\Test Process and Tools\SALERP\Software-testing-process-and-tools\Software-testing-process-and-tools.prj</projectFileLocation>
-=======
-   <projectFileLocation>C:\Users\DELL\git\Project Nhom UMT Uni\Software-testing-process-and-tools.prj</projectFileLocation>
->>>>>>> branch 'nqtruong' of https://github.com/UMT-UNI/Software-testing-process-and-tools.git
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
