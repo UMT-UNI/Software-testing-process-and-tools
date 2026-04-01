@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_btn btn-danger btn-sm</name>
+   <tag></tag>
+   <elementGuidId>54f2450a-4c94-4f5c-b841-f9a8cf4962a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' odd ') and (position() = 1)]//*[@data-original-title = 'delete']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.odd:nth-child(1) [data-original-title=&quot;delete&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8e4ed233-f6ec-42c0-b12d-ccde1f52fc52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://saleserpdemo.bdtask-demo.com/v10_demo/service/service/service_delete/1</value>
+      <webElementGuid>eedac057-ac2b-40a6-8da4-68b952857014</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-danger btn-sm</value>
+      <webElementGuid>f76b7e4e-e820-4aaa-a852-ce32cdd31f0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>tooltip</value>
+      <webElementGuid>b5fac919-2fdc-46c3-b138-4fd9d6902392</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-placement</name>
+      <type>Main</type>
+      <value>right</value>
+      <webElementGuid>51f95ff2-423e-4903-821c-9414381f848d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>return confirm('Are Your Sure ?')</value>
+      <webElementGuid>0bc4b759-e5ce-4b05-81ae-29ed10728765</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-original-title</name>
+      <type>Main</type>
+      <value>delete</value>
+      <webElementGuid>53a16786-3957-4c8f-8941-ce5f2d600308</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-1e16adb9ab9a891b06dcd7886b36bc22</value>
+      <webElementGuid>b792890b-4c34-430c-8f58-86f93b059851</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' odd ') and (position() = 1)]//*[@data-original-title = 'delete']</value>
+      <webElementGuid>469b4ebf-f378-4a77-b65a-4340d91da0c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' odd ') and (position() = 1)]//*[@data-original-title = 'delete']</value>
+      <webElementGuid>dba23d6d-ca31-4dbe-bc0a-b7e4a6c06ec5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://saleserpdemo.bdtask-demo.com/v10_demo/service/service/service_delete/1']</value>
+      <webElementGuid>b0fc5cde-8dbe-4121-bfd1-73b6c809efad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

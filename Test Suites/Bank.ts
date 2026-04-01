@@ -51,4 +51,11 @@
          <variableId>16f44350-153c-4470-9c32-fae04e290779</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>08c250d6-c84b-4f5f-a8ed-d350fcc31491</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bank/TC_Manage_Bank</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

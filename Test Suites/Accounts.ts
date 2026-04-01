@@ -33,4 +33,11 @@
          <variableId>7648d37c-4613-4809-98f3-75a2fdb3f6d4</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4a42a80e-946d-45df-83d9-0affe91d9f5d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Accounts/TC_Payment_Method_List</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

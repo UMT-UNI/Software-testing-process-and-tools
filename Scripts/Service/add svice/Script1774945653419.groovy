@@ -29,7 +29,7 @@ WebUI.setEncryptedText(findTestObject('Page_/input_Password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Page_/button_Login'))
 
-WebUI.click(findTestObject('Page_Dashboard/span_pull-right-container'))
+WebUI.click(findTestObject('Page_Dashboard/a_Service'))
 
 WebUI.click(findTestObject('Page_Dashboard/a_Add Service'))
 

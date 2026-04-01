@@ -19,32 +19,28 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-// Navigate to login page
 WebUI.navigateToUrl('https://saleserpdemo.bdtask-demo.com/v10_demo/login')
 
-// Login
-WebUI.setText(findTestObject('Page_Login/input_Email'), 'admin@gmail.com')
+WebUI.setText(findTestObject('Page_/input_Email'), 'admin@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Login/input_Password'), 'aeHF0x8jV/A=')
+WebUI.click(findTestObject('Page_/input_Password'))
+
+WebUI.setEncryptedText(findTestObject('Page_/input_Password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Page_Login/button_Login'))
 
-// Click Service menu
-WebUI.waitForElementClickable(findTestObject('Page_Service/a_Service'), 10)
-
-WebUI.click(findTestObject('Page_Service/a_Service'))
+WebUI.click(findTestObject('Page_Dashboard/a_Service'))
 
 // Click Manage Service
-WebUI.waitForElementClickable(findTestObject('Page_Service/a_Manage Service'), 10)
+WebUI.waitForElementClickable(findTestObject('Page_Dashboard/a_Manage Service'), 10)
 
-WebUI.click(findTestObject('Page_Service/a_Manage Service'))
+WebUI.click(findTestObject('Page_Dashboard/a_Manage Service'))
 
-// Wait page load
-WebUI.delay(2)
+WebUI.click(findTestObject('Page_Manage Service/a_btn btn-danger btn-sm'))
 
-// Verify service tồn tại
-WebUI.verifyTextPresent('Test Service', false)
+WebUI.rightClick(findTestObject('Page_Manage Service/div_You Are In Demo Mode_1'))
 
-// Close browser
+WebUI.verifyElementPresent(findTestObject('Page_Manage Service/div_You Are In Demo Mode_1'), 0)
+
 WebUI.closeBrowser()
 

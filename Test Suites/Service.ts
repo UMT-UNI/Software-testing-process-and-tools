@@ -51,4 +51,25 @@
          <variableId>0b56de85-e691-4019-ba1d-5d9cee8dd031</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7202f223-b79f-4de5-8760-534f8d189465</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Service/TC_Manage_Service</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9ae8aa0d-e4ca-4b86-b654-899b2cb41571</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Service/TC_Service_Invoice</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a986c112-014c-4393-a28c-2b8e362183bf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Service/TC_Manage_Service_Invoice</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

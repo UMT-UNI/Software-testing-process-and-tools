@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>14a1e044-18e1-43bb-9672-c782b96a4ac7</dataFileGUID>
-   <dataSourceUrl>Data Files/DD_Sevice.csv</dataSourceUrl>
+   <dataSourceUrl>Data Files/Truong_CSV/DD_Sevice.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
