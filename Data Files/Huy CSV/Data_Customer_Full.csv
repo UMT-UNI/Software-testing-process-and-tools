@@ -1,0 +1,3 @@
+TCID,vCustName,vMobile,vEmail,vAddress1,vAddress2,vCity,vState,vZip,vCountry,vVatNo,vExpected
+TC_CUST_01,Test KH,912345678,huy@test.com,123 Street,District 1,HCM,None,70000,Vietnam,VAT123,fail
+TC_CUST_02,,Test@@,email@test,Add1,Add2,City,State,123,Country,VAT456,fail

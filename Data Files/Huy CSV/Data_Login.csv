@@ -1,0 +1,8 @@
+TCID,Email,Password,Expected
+TC_AUTH_01,admin@gmail.com,123456,Dashboard
+TC_AUTH_02,admin@gmail.com,wrongpass,Wrong User Name Or Password !
+TC_AUTH_03,unknown@test.com,123456,Wrong User Name Or Password !
+TC_AUTH_04,,,The Email field is required
+TC_AUTH_05,admin@gmail.com,,The Password field is required
+TC_AUTH_06,,123456,The Email field is required
+TC_AUTH_07,admin@gmail,123456,The Email field must contain a valid email address

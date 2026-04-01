@@ -1,0 +1,5 @@
+vId,vCustomer,vProduct,vQty,vExpected
+TC_SALE_01,User A,Fan,1,You are in demo
+TC_SALE_02,User A,Fan,0,số lượng phải lớn hơn 0
+TC_SALE_03,User A,Fan,10,Out of stock
+TC_SALE_04,,Fan,1,yêu cầu chọn Khách hàng

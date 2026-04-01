@@ -1,0 +1,3 @@
+TCID,vSupName,vMobile,vEmail,vVatNo,vPhone,vContact,vAddress1,vAddress2,vFax,vCity,vState,vZip,vCountry,vExpected
+TC_SUP_01,Supplier Huy Quang,912345678,huy@supplier.com,VAT999,28333444,Huy Admin,123 CMT8,Ward 5,028 FAX,Ho Chi Minh,HCM City,70000,Vietnam,fail
+TC_SUP_02,,Test Mobile,email@test,VAT123,Phone123,Cont@@,Add1,Add2,Fax1,City1,State1,Zip1,Country1,fail
